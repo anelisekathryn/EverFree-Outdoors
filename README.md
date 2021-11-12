@@ -25,13 +25,15 @@ Insert code here ----
 
 https://whimsical.com/everfree-P4dkTQB4sykQrTkRmoBqX9
 
-Insert image here -----
+Insert images here ------
 
-## Wireframes
+## Wireframes & Branding
 
 https://www.figma.com/file/cMLvn51ilzBYvskQ4NLJSR/EverFree-Outdoors?node-id=0%3A1
 
-Insert images here -----
+![Screen Shot 2021-11-12 at 12 58 10 PM](https://user-images.githubusercontent.com/90531123/141527623-b7434546-cb09-4a01-bd62-ae297c3d962b.png)
+
+![Screen Shot 2021-11-12 at 1 03 08 PM](https://user-images.githubusercontent.com/90531123/141527909-231efd54-32cf-4fa3-8385-7eed52156cd1.png)
 
 ## Team Expectations
 
