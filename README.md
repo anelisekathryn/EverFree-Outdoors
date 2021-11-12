@@ -1,6 +1,6 @@
 # EverFree Outdoors
 
-https://github.com/anelisekathryn/P3-app
+https://github.com/anelisekathryn/EverFree-Outdoors
 
 ## Overview
 
@@ -44,7 +44,6 @@ const Product = new Schema
       },
     featured: { 
       type: Boolean, 
-      required: true 
       }  
   },
   { timestamps: true }
