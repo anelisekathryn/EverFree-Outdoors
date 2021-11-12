@@ -84,7 +84,7 @@ https://www.figma.com/file/cMLvn51ilzBYvskQ4NLJSR/EverFree-Outdoors?node-id=0%3A
 
 ![Screen Shot 2021-11-12 at 1 17 04 PM](https://user-images.githubusercontent.com/90531123/141529286-a175ae3c-1e1a-469b-8158-86de37ed976b.png)
 
-![Screen Shot 2021-11-12 at 1 03 08 PM](https://user-images.githubusercontent.com/90531123/141527909-231efd54-32cf-4fa3-8385-7eed52156cd1.png)
+![Screen Shot 2021-11-12 at 2 28 16 PM](https://user-images.githubusercontent.com/90531123/141536717-4ea2b59e-95b2-4ac4-85ef-414d9fb42daf.png)
 
 ## Team Expectations
 
@@ -111,16 +111,16 @@ https://www.figma.com/file/cMLvn51ilzBYvskQ4NLJSR/EverFree-Outdoors?node-id=0%3A
 
 ## Project Schedule
 
-| Date              | Deliverable                                                                             |   Status     |
-| :---------------- | :-------------------------------------------------------------------------------------- | :----------: |
-| November 10       | Project Team Building                                                                   |  Complete    |
-| November 12       | Wireframes + Final Project Approval                                                     |  Incomplete  |
-| November 13–14    | Create Back-End (group code)                                                            |  Incomplete  |
-| November 15       | Continue Back-End (group code) + Testing + Deploy Back-End                              |  Incomplete  |
-| November 16       | Create React App + Test Components to Render / Assign Individual Tasks in Front-End     |  Incomplete  |
-| November 17       | Continue Working on React Front-End                                                     |  Incomplete  |
-| November 18       | Working Prototype + Start CSS Styling                                                   |  Incomplete  |
-| November 19       | CSS Styling                                                                             |  Incomplete  |
-| November 20–21    | Final styling + Code Review                                                             |  Incomplete  |
-| November 22       | Project presentation                                                                    |  Incomplete  |
+| Date         | Deliverable                                                                             |   Status     |
+| :----------- | :-------------------------------------------------------------------------------------- | :----------: |
+| Nov 10       | Project Team Building                                                                   |  Complete    |
+| Nov 12       | Wireframes + Final Project Approval                                                     |  Incomplete  |
+| Nov 13–14    | Create Back-End (group code)                                                            |  Incomplete  |
+| Nov 15       | Continue Back-End (group code) + Testing + Deploy Back-End                              |  Incomplete  |
+| Nov 16       | Create React App + Test Components to Render / Assign Individual Tasks in Front-End     |  Incomplete  |
+| Nov 17       | Continue Working on React Front-End                                                     |  Incomplete  |
+| Nov 18       | Working Prototype + Start CSS Styling                                                   |  Incomplete  |
+| Nov 19       | CSS Styling                                                                             |  Incomplete  |
+| Nov 20–21    | Final styling + Code Review                                                             |  Incomplete  |
+| Nov 22       | Project presentation                                                                    |  Incomplete  |
 
