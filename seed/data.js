@@ -41,42 +41,48 @@ const insertData = async () => {
     "imgURL": "https://i.imgur.com/lXXtaSc.jpg",
     "description": "TETON Sports Sierra 16 12 Person Family Canvas Tent - The Sierra 16 Canvas Tent is a beautiful bell tent with all the great features you’d expect from a canvas tent; stability, breathability, and water-resistance. The coolest feature is the zip-away floor that transforms your tent into a canopy for outdoor events such as festivals, weddings, and group campouts. It’s an easy single person set up.",
     "type": "tents",
-    "price": 629.99
+      "price": 629.99,
+    "featured": true
   },
   {
     "name": "Big Agnes Tiger Wall UL1 Solution Dye - 1 Person Tent",
     "imgURL": "https://i.imgur.com/1xtCsSK.jpg",
     "description": "Big Agnes Tiger Wall UL1 Solution Dye - 1 Person Tent - The Tiger Wall UL tents are our lightest two door/two vestibule, technical backcountry shelters yet. The two doors make tent life a little easier, and the weight savings is especially nice when out for multi-day trip and gram counting. Combining simple, yet strong single pole architecture with DAC Featherlite materials, interior storage pockets, and comforts around every corner, these tents are poised to be a backcountry favorite.",
     "type": "tents",
-    "price": 359.95
+    "price": 359.95,
+    "featured": true
   },
   {
     "name": "Marmot Catalyst 2 Person Tent",
     "imgURL": "https://i.imgur.com/GLtYygg.jpg",
     "description": "Marmot Catalyst 2 Person Tent - The Catalyst 2 Person Tent is a 3-season, lightweight 2-person tent that features a seam-taped catenary cut floor, color-coded poles for easy setup and 2 D-shaped doors and 2 vestibules with plenty of room to stash gear. It also has interior pockets so you can store your smaller gear and a lamp shade pocket that securely holds your headlamp and provide ambient light.",
     "type": "tents",
-    "price": 183
+    "price": 183,
+    "featured": true
   },
   {
     "name": "ALPS Mountaineering Meramac 3 Person Camping Tent",
     "imgURL": "https://i.imgur.com/PNaFQSY.jpg",
     "description": "ALPS Mountaineering Meramac 3 Person Camping Tent - The Meramac series tents are all free standing 2-pole designs with shock corded fiberglass with aluminum ferrules. The ferrules are the \"connectors\" that hold the poles together and we use aluminum, rather than steel, because aluminum can never rust. Fiberglass poles are also normally one size larger than normal to offer you a sturdier, stronger tent. Lightweight but strong polyester fabrics. The side walls are uncoated so the tent can \"breathe\" under the urethane coated fly. The fly uses a pole in the top, which gives you an awning over each door for excellent rain protection. The fly is full length on the sides, not 3/4 length like some others, for better weather protection. Factory seal seams on the floor and fly for maximum water repellency. Entry and exit are enhanced with 2 doors, which means if you have to get out at night, you don't need to crawl over the others to get to the only door. The second door is also nice for extra ventilation in hot, muggy weather. Door zippers are a #8, which is one size larger than most, for extra durability. Mesh storage pockets and a gear loft are included to help you keep your gear organized. ",
     "type": "tents",
-    "price": 129.99
+    "price": 129.99,
+    "featured": true
   },
   {
     "name": "Kelty Ashcroft 1 - 1 Person Backpacking Tent - Elm/Winter Moss",
     "imgURL": "https://i.imgur.com/xvcfWXY.jpg",
     "description": "Kelty Ashcroft 1 - 1 Person Backpacking Tent - Elm/Winter Moss - ",
     "type": "tents",
-    "price": 99.99
+    "price": 99.99,
+    "featured": true
   },
   {
     "name": "Mystery Ranch Terraframe 3-Zip 50 Backpack",
     "imgURL": "https://i.imgur.com/865i9KQ.jpg",
     "description": "Finally, a pack built for general outdoor, backpacking, and mountaineering use featuring our patented OVERLOAD feature. Your new secret weapon when carrying awkward, excessive loads. 3-Zip access meets load-hauling OVERLOAD feature for mountain use. Blending two of Mystery Ranch's most crucial designs – the 3-ZIP and OVERLOAD features – the redesigned TERRAFRAME 50 3-ZIP is for mountain zealots who need the option of going light or going big. Mystery Ranch offered the OVERLOAD feature in hunting and military packs for years, yet backcountry climbers, fisherman, guides, and others have been asking for a mountain-inspired version of this versatile, load-taming design. Featuring rigid, carbon fiber frame stays, the suspension allows an ideal amount of torsional flex while providing ample support for loads up to 150 lbs. This functional expandability, the OVERLOAD, is your secret weapon when carrying awkward, excessive loads.",
     "type": "backpacks",
-    "price": 350
+    "price": 350,
+    "featured": true
   },
   {
     "name": "TETON Sports Scout 3400 Internal Frame Backpack",
