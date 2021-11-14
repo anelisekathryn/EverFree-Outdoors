@@ -54,7 +54,7 @@ const Product = new Schema
 Users:
 ```
  const User = new Schema  ({
-   firstname: {
+   username: {
      type: String,
      required: true,
    },
