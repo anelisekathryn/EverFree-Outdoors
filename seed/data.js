@@ -1,10 +1,10 @@
 import db from '../db/connection.js'
-import Product from '../models/products.js'
+import Product from '../models/product.js'
 import User from '../models/user.js'
 import bcrypt from 'bcrypt'
 
 const insertData = async () => {
-
+  // reset database
   await db.dropDatabase()
 
   const user1 = new User({
