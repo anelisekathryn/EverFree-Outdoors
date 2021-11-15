@@ -1,23 +1,30 @@
-import logo from './logo.svg';
 import './App.css';
+
+import { useState, useEffect } from "react";
+import { Route, Routes, Navigate } from "react-router-dom";
+
+import Home from "./screens/Home/Home"
+// import Products from "./screens/Products/Products"
+// import ProductCreate from "./screens/ProductCreate/ProductCreate"
+// import ProductEdit from "./screens/ProductEdit/ProductEdit"
+// import ProductDetail from "./screens/ProductDetail/ProductDetail"
+// import { verifyUser } from './services/users'
+// import SignUp from "./screens/SignUp/SignUp"
+// import SignIn from "./screens/SignIn/SignIn"
+// import SignOut from "./screens/SignOut/SignOut"
+
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h2>TEST</h2>
+      {/* <Routes>
+        <Route
+          exact path="/"
+          element={<Home />}
+        />
+      </Routes> */}
     </div>
   );
 }
