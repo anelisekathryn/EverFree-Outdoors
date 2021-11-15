@@ -11,9 +11,6 @@ import ProductDetail from "./screens/ProductDetail/ProductDetail"
 import { verifyUser } from './services/users'
 import SignUp from "./screens/SignUp/SignUp"
 import SignIn from "./screens/SignIn/SignIn"
-// import SignOut from "./screens/SignOut/SignOut"
-
-
 
 function App() {
   return (
