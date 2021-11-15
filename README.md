@@ -2,6 +2,10 @@
 
 https://github.com/anelisekathryn/EverFree-Outdoors
 
+## EverFree Outdoors Heroku link
+
+https://everfree-outdoors.herokuapp.com/api/products
+
 ## Overview
 
 We’re a rag-tag group of outdoor people that love to get outside, get unplugged, and enjoy the outdoors without emails, phone calls, texts, tik toks, or whatever else the youths are doing these days. We’ve been called quite a few names in our day, but you can call us Team Daale (pronounced: dāāl). 
