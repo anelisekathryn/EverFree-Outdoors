@@ -1,11 +1,11 @@
 import { useState } from 'react'
 import './ProductCreate.css'
 import { Layout } from '../../components'
-// import { useNavigate } from 'react-router-dom'
+import { useNavigate } from 'react-router-dom'
 import { createProduct } from '../../services/products'
 
 const ProductCreate = (props) => {
-  // const navigate = useNavigate()
+  const navigate = useNavigate()
 
   const [product, setProduct] = useState({
     name: '',
@@ -31,9 +31,10 @@ const ProductCreate = (props) => {
     setCreated({ created })
   }
 
-  // if (isCreated) {
-  //   navigate("/products")
-  // }
+  if (isCreated) {
+    navigate("/products")
+  }
+  
 
   return (
     <Layout user={props.user}>
