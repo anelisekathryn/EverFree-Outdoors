@@ -1,11 +1,11 @@
 import { useState } from 'react'
 import './SignUp.css'
 import { signUp } from '../../services/users.js'
-// import { Navigate } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
 
 
 const SignUp = (props) => {
-    // const history = useHistory()
+    let navigate = useNavigate()
 
     const [form, setForm] = useState({
         username: '',
@@ -29,8 +29,7 @@ const SignUp = (props) => {
     try {
       const user = await signUp(form)
       setUser(user)
-      // history.push('/')
-      // <Navigate to="/" />
+      navigate("/")
     } catch (error) {
       console.error(error)
       setForm({
@@ -101,6 +100,7 @@ const SignUp = (props) => {
       />
       {renderError()}
     </form>
+    <button><Link to="/">home</Link></button>
   </div>
   )
 }
