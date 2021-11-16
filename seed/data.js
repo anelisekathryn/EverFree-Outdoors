@@ -35,6 +35,13 @@ const insertData = async () => {
   })
   await user4.save()
 
+  const user5 = new User({
+    username: 'leroy',
+    email: 'leroy@mail.com',
+    password_digest: await bcrypt.hash('jenkins', 11)
+  })
+  await user5.save()
+
   const products = [
     {
       "name": "TETON Sports Sierra 16 12 Person Family Canvas Tent - Khaki Tan/ Brown",
