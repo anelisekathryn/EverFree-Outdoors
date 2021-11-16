@@ -13,7 +13,7 @@ const Home = (props) => {
       </div>
       <div className='featured-block'>
         <FeaturedProduct />
-        <p>Need Product component to load map</p>
+        <p>Featured products should be here</p>
         <br />
         <br />
       </div>
