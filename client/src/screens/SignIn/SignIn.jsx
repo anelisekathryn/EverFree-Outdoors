@@ -1,10 +1,10 @@
 import { useState } from 'react'
 import './SignIn.css'
 import { signIn } from '../../services/users'
-import { Link } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
 
 const SignIn = (props) => {
-  // const history = useHistory()
+  let navigate = useNavigate()
 
   const [form, setForm] = useState({
     email: '',
@@ -26,8 +26,7 @@ const SignIn = (props) => {
     try {
       const user = await signIn(form)
       setUser(user)
-      // history.push('/')
-      // <Navigate to='/' />
+      navigate("/")
     } catch (error) {
       console.error(error)
       setForm({
@@ -58,9 +57,9 @@ const SignIn = (props) => {
     <div className='form-container'>
       <h3>We're so happy you're here!</h3>
       <h2>New to EverFree? That's ok! Sign up 
-        <Link to="/">here</Link></h2>
+        <Link to="/sign-up">here</Link></h2>
       <form onSubmit={onSignIn}>
-        {/* <label>Email</label> */}
+        
         <input
           required
           type='text'
@@ -69,7 +68,7 @@ const SignIn = (props) => {
           placeholder='Enter Email'
           onChange={handleChange}
         />
-        {/* <label>Password</label> */}
+        
         <input
           required
           name='password'
@@ -80,6 +79,7 @@ const SignIn = (props) => {
         />
         {renderError()}
       </form>
+      <button><Link to="/">home</Link></button>
     </div>
   )
 }
