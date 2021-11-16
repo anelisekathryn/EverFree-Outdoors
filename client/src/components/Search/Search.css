@@ -1,0 +1,10 @@
+.search-form input.search-input {
+    background-color: #EFD595;
+    color: #2A9D8F;
+    border-radius: 3px;
+    padding: 10px;
+    width: 300px;
+    border: none;
+    resize: none;
+    outline: none;
+}
