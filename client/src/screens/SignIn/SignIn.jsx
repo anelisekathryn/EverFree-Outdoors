@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import './SignIn.css'
 import { signIn } from '../../services/users'
-// import { Navigate } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
 const SignIn = (props) => {
   // const history = useHistory()
@@ -57,7 +57,8 @@ const SignIn = (props) => {
   return (
     <div className='form-container'>
       <h3>We're so happy you're here!</h3>
-      <h2>New to EverFree? That's ok! Sign up here</h2>
+      <h2>New to EverFree? That's ok! Sign up 
+        <Link to="/">here</Link></h2>
       <form onSubmit={onSignIn}>
         {/* <label>Email</label> */}
         <input
