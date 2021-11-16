@@ -2,6 +2,7 @@ import { useState,useEffect } from "react"
 import { useParams } from "react-router"
 import { Layout } from "../../components"
 import { getProduct } from "../../services/products"
+import CSS from './ProductEdit.css'
 
 const ProductEdit = () => {
   const [product, setProduct] = useState([])

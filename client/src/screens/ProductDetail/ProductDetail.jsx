@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react'
 import { getProduct, deleteProduct } from '../../services/products';
 import { useParams, Link} from 'react-router-dom'
 import { Layout } from '../../components';
+import CSS from './ProductDetail.css'
 const ProductDetail = () => {
   const [product, setProduct] = useState([])
   let { id } = useParams()
@@ -18,12 +19,16 @@ const ProductDetail = () => {
   return (
     <Layout>
     <div>
-      
-      <h2>This will be the product detail page</h2>
       <h2 className='name'>{product.name }</h2>
-      <h3 className='price'>{`$${product.price}`}</h3>
-      <img src={ product.imgURL }/>
-          <div className='description'>{product.description}</div>
+      
+        <div className='wrapper'>
+          
+          <img className='url' src={product.imgURL} />
+          <div className='price-wrapper'>
+          <h3 className='price'>{`$${product.price}`}</h3>
+          <p className='description'>{product.description}</p>
+          </div>
+          </div>
       </div>
       <div className='button-container'>
         <button>
