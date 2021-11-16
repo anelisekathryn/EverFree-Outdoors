@@ -14,6 +14,16 @@ import SignUp from "./screens/SignUp/SignUp"
 import SignIn from "./screens/SignIn/SignIn"
 
 function App() {
+  const [user, setUser] = useState(null)
+  
+  useEffect(() => {
+    const fetchUser = async () => {
+      const user = await verifyUser()
+      user ? setUser(user) : setUser(null)
+    }
+    fetchUser()
+  }, [])
+  
   return (
     <div className="App">
       <Routes>
