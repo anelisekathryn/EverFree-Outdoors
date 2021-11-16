@@ -17,8 +17,8 @@ const FeaturedProduct = () => {
     fetchProducts()
   }, [])
 
-  const FEATURED = products.map((product, featured, index) =>
-    featured === true ? (
+  const FEATURED = products.slice(0,5).map((product, index) =>
+    product.featured ? (
       <Product
       _id={product._id}
       imgURL={product.imgURL}
