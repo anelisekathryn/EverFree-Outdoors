@@ -1,9 +1,10 @@
 import './Nav.css'
 import { NavLink } from 'react-router-dom'
+import { SignOut } from '../../components'
 
 const authenticatedOptions = (
   <>
-      <NavLink className="link" to="/sign-out">Sign Out</NavLink>
+    <SignOut />
   </>
 )
 const unauthenticatedOptions = (
