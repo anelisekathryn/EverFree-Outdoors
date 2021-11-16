@@ -15,6 +15,7 @@
 // export default Products;
 
 import { useState, useEffect } from 'react'
+import { Link } from "react-router-dom"
 import './Products.css'
 
 // import { Layout, Product, Search, Sort } from '../../components'
@@ -88,8 +89,14 @@ const Products = (props) => {
               // price={product.price}
               // key={index}
             />
+            
           )
-        })}
+        }
+        
+        )
+        } 
+         <Link className="addProduct" to="/add-product"> Add Product</Link>
+       
       </div>
     </Layout>
   )

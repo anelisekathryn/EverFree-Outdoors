@@ -29,15 +29,15 @@ function App() {
       <Routes>
         <Route
           exact path="/"
-          element={<Home />}
+          element={<Home user={user} />}
         />
         <Route
           path="/sign-up"
-          element={<SignUp />}
+          element={<SignUp setUser={setUser}/>}
         />
         <Route
           path="/sign-in"
-          element={<SignIn />}
+          element={<SignIn setUser={setUser}/>}
         />
         <Route
           path="/products"
