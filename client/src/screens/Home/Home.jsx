@@ -7,7 +7,7 @@ const Home = (props) => {
   return (
     <Layout user={props.user}>
       <div className='header'>
-        <h2>This will be the header image - need link</h2>
+        <img src="https://i.imgur.com/kWRULl8.jpg" alt="machu picchu"></img>
         <br />
         <br />
       </div>
