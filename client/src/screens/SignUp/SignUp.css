@@ -6,11 +6,13 @@ h2 {
   color: #EFD595;
 }
 .form-container {
+  height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   background-image: url("https://i.imgur.com/ebmfzLO.jpg");
-  background-size: 100%; 
+  background-size: cover;
+  background-repeat: no-repeat; 
 }
 form {
   display: flex;
