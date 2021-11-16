@@ -47,7 +47,7 @@ const SignIn = (props) => {
         </button>
       )
     } else {
-      return <button type='submit'>Sign In</button>
+      return <button className="sign-in-button" type='submit'>let's go</button>
     }
   }
 
@@ -55,17 +55,16 @@ const SignIn = (props) => {
 
   return (
     <div className='form-container'>
-      <h3>We're so happy you're here!</h3>
-      <h2>New to EverFree? That's ok! Sign up 
-        <Link to="/sign-up">here</Link></h2>
       <form onSubmit={onSignIn}>
-        
+      <h2>We're so happy you're here!</h2>
+      <h3>New to EverFree? That's ok! Sign up  
+        <Link className="here-link" to="/sign-up"> here</Link>.</h3>  
         <input
           required
           type='text'
           name='email'
           value={email}
-          placeholder='Enter Email'
+          placeholder='email'
           onChange={handleChange}
         />
         
@@ -74,12 +73,12 @@ const SignIn = (props) => {
           name='password'
           value={password}
           type='password'
-          placeholder='Enter Password'
+          placeholder='password'
           onChange={handleChange}
         />
         {renderError()}
       </form>
-      <Link to="/"><button>home</button></Link>
+      <Link to="/"><button className="home-button">home</button></Link>
     </div>
   )
 }

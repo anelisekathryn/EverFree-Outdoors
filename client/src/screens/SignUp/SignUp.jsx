@@ -52,7 +52,7 @@ const SignUp = (props) => {
         </button>
       )
     } else {
-      return <button type='submit'>Sign Up</button>
+      return <button className="submit" type='submit'>let's go</button>
     }
   }
 
@@ -60,9 +60,10 @@ const SignUp = (props) => {
     
   return (
     <div className='form-container'>
-    <h3>Ready for an adventure</h3>
+    
     <form onSubmit={onSignUp}>
-      {/* <label>Username</label> */}
+    <h2>Ready for an adventure?</h2>
+      
       <input
         required
         type='text'
@@ -71,7 +72,7 @@ const SignUp = (props) => {
         placeholder='Enter Username'
         onChange={handleChange}
       />
-      {/* <label>Email address</label> */}
+      
       <input
         required
         type='email'
@@ -80,7 +81,7 @@ const SignUp = (props) => {
         placeholder='Enter Email'
         onChange={handleChange}
       />
-      {/* <label>Password</label> */}
+      
       <input
         required
         name='password'
@@ -89,7 +90,7 @@ const SignUp = (props) => {
         placeholder='Enter a New Password'
         onChange={handleChange}
       />
-      {/* <label>Password Confirmation</label> */}
+      
       <input
         required
         name='passwordConfirmation'
@@ -98,9 +99,10 @@ const SignUp = (props) => {
         placeholder='Confirm Your Password'
         onChange={handleChange}
       />
+      
       {renderError()}
     </form>
-    <Link to="/"><button>home</button></Link>
+    <Link to="/"><button className="home-button">home</button></Link>
   </div>
   )
 }
