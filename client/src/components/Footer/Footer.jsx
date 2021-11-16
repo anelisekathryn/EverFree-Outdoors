@@ -1,6 +1,7 @@
 import './Footer.css'
 
 const Footer = () => {
+  return (
   <footer>
     <div className='footermenu'>
       <div>Home</div>
@@ -18,7 +19,8 @@ const Footer = () => {
       <h5>Ej Soumahoro</h5>
       <h5>Lance Simmons</h5>
     </div>
-  </footer>
+    </footer>
+  )
 }
 
 export default Footer
