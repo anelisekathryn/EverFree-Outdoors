@@ -2,7 +2,6 @@
 
 #signin-h2 {
   font-family: 'Playfair Display', serif;
-  font-size: 3vh;
   color: #EFD595;
 }
 .signin-h3 {
@@ -32,7 +31,6 @@
 }
 .signin-input {
   font-family: 'Cabin', sans-serif;
-  font-size: 100%;
   width: 25vw;
   height: 4vh;
   margin-top: 1vh;
@@ -46,16 +44,31 @@
   height: 5vh;
   width: 15vw;
   font-family: 'Playfair Display', serif;
-  font-size: 80%;
   margin-bottom: 4vh; 
 }
-.home-button {
+.signin-home-button {
   background-color: #ffffff50;
   width: 15vw;
   height: 5vh;
   border-radius: 10px;
-  font-size: 100%;
   font-family: 'Playfair Display', serif;
   margin-top: 4vh;
   margin-bottom: 4vh;
 } 
+
+@media only screen and (max-width: 600px) {
+  .sign-in-button {
+    font-size: 70%;
+    width: 50vw;
+  }
+  .signin-home-button {
+    font-size: 70%;
+    width: 50vw;
+  }
+  .signin-form {
+    width: 90%;
+  }
+  .signin-input {
+    width: 70%;
+  }
+}

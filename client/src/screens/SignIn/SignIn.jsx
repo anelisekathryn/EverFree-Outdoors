@@ -78,7 +78,7 @@ const SignIn = (props) => {
         />
         {renderError()}
       </form>
-      <Link to="/"><button className="home-button">home</button></Link>
+      <Link to="/"><button className="signin-home-button">home</button></Link>
     </div>
   )
 }
