@@ -5,10 +5,10 @@ const Footer = ({ user }) => {
   return (
   <footer>
     <div className='footer-menu'>
-      <div>< a href='/'>Home</a></div>
-      <div>< a href='/products'>Shop</a></div>
-      <div>< a href='/about'>About</a></div>
-      <div>< a href='/about'>Meet the Team</a></div>
+      <div><Link to='/'>Home</Link></div>
+      <div><Link to='/products'>Shop</Link></div>
+      <div><Link to='/about'>About</Link></div>
+      <div><Link to='/about'>Meet the Team</Link></div>
         <div><Link to='/add-product'>Add a Product</Link></div>
     </div>
     
