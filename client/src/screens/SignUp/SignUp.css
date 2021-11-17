@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Cabin&family=Playfair+Display:wght@700&family=Space+Grotesk:wght@500&family=Titillium+Web:wght@700&family=Varela+Round&display=swap');
 
-h2 {
+#signup-h2 {
   font-family: 'Playfair Display', serif;
   font-size: 3vh;
   color: #EFD595;
+
 }
 .form-container {
   height: 100vh;
@@ -14,7 +15,7 @@ h2 {
   background-size: cover;
   background-repeat: no-repeat; 
 }
-form {
+.signup-form {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -23,7 +24,7 @@ form {
   border-radius: 20px;
   margin-top: 10vh;
 }
-input {
+.signup-input {
   font-family: 'Cabin', sans-serif;
   font-size: 100%;
   width: 25vw;
@@ -32,7 +33,7 @@ input {
   border-radius: 10px;
   padding-left: 20px;
 }
-.submit {
+.signup-button {
   background-color: #E76F51;
   border-radius: 10px;
   height: 5vh;

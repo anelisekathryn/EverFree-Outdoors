@@ -52,7 +52,7 @@ const SignUp = (props) => {
         </button>
       )
     } else {
-      return <button className="submit" type='submit'>let's go</button>
+      return <button className="signup-button" type='submit'>let's go</button>
     }
   }
 
@@ -61,10 +61,10 @@ const SignUp = (props) => {
   return (
     <div className='form-container'>
     
-    <form onSubmit={onSignUp}>
-    <h2>Ready for an adventure?</h2>
+    <form className="signup-form" onSubmit={onSignUp}>
+    <h2 id="signup-h2">Ready for an adventure?</h2>
       
-      <input
+      <input className="signup-input"
         required
         type='text'
         name='username'
@@ -73,7 +73,7 @@ const SignUp = (props) => {
         onChange={handleChange}
       />
       
-      <input
+      <input className="signup-input"
         required
         type='email'
         name='email'
@@ -82,7 +82,7 @@ const SignUp = (props) => {
         onChange={handleChange}
       />
       
-      <input
+      <input className="signup-input"
         required
         name='password'
         value={password}
@@ -91,7 +91,7 @@ const SignUp = (props) => {
         onChange={handleChange}
       />
       
-      <input
+      <input className="signup-input"
         required
         name='passwordConfirmation'
         value={passwordConfirmation}
