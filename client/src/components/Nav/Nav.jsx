@@ -1,6 +1,7 @@
 import './Nav.css'
-import { NavLink } from 'react-router-dom'
+import { NavLink, useLocation } from 'react-router-dom'
 import { SignOut } from '../../components'
+import { useEffect } from 'react'
 
 const authenticatedOptions = (
   <>
@@ -21,8 +22,15 @@ const alwaysOptions = (
 )
 
 const Nav = ({ user }) => {
+  let location = useLocation()
+
+  useEffect(() => {
+    console.log(location.pathname)
+  }, [location])
+
   return (
-    <nav>
+    <nav
+      className={location.pathname === '/' ? 'nav-home' : 'nav' }>
       <NavLink className='logo' to='/'>EverFree Outdoors</NavLink>
       <div className='links'>
         {alwaysOptions}
