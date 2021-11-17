@@ -1,10 +1,10 @@
 # EverFree Outdoors
 
-https://github.com/anelisekathryn/EverFree-Outdoors
+**Github Repo:** https://github.com/anelisekathryn/EverFree-Outdoors
 
-## EverFree Outdoors Heroku link
+**Heroku:** https://everfree-outdoors.herokuapp.com/api/products
 
-https://everfree-outdoors.herokuapp.com/api/products
+**Netlify:** https://61955114aaac4e5be0c9813b--everfree-outdoors.netlify.app/
 
 ## Overview
 
@@ -123,12 +123,12 @@ https://www.figma.com/file/cMLvn51ilzBYvskQ4NLJSR/EverFree-Outdoors?node-id=0%3A
 | Date      | Deliverable                                                                         |   Status   |
 | :-------- | :---------------------------------------------------------------------------------- | :--------: |
 | Nov 10    | Project Team Building                                                               |  Complete  |
-| Nov 12    | Wireframes + Final Project Approval                                                 | Incomplete |
-| Nov 13–14 | Create Back-End (group code)                                                        | Incomplete |
-| Nov 15    | Continue Back-End (group code) + Testing + Deploy Back-End                          | Incomplete |
-| Nov 16    | Create React App + Test Components to Render / Assign Individual Tasks in Front-End | Incomplete |
-| Nov 17    | Continue Working on React Front-End                                                 | Incomplete |
-| Nov 18    | Working Prototype + Start CSS Styling                                               | Incomplete |
+| Nov 12    | Wireframes + Final Project Approval                                                 |  Complete  |
+| Nov 13–14 | Create Back-End (group code)                                                        |  Complete  |
+| Nov 15    | Continue Back-End (group code) + Testing + Deploy Back-End                          |  Complete  |
+| Nov 16    | Create React App + Test Components to Render / Assign Individual Tasks in Front-End |  Complete  |
+| Nov 17    | Continue Working on React Front-End                                                 |  Complete  |
+| Nov 18    | Working Prototype + Start CSS Styling                                               |  Complete  |
 | Nov 19    | CSS Styling                                                                         | Incomplete |
 | Nov 20–21 | Final styling + Code Review                                                         | Incomplete |
 | Nov 22    | Project presentation                                                                | Incomplete |
