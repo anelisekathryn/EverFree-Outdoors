@@ -4,6 +4,11 @@
   flex-direction: row;
 }
 
+.nav a {
+  color: white;
+  text-decoration: none;
+}
+
 .nav-home {
   background-color: transparent;
   position: absolute;
@@ -11,9 +16,18 @@
   flex-direction: row;
 }
 
+.nav-home a {
+  text-decoration: none;
+  color: #264653;
+}
+
 .links {
   display: flex;
   flex-direction: row
+}
+
+.link-welcome {
+  color: white;
 }
 
 link {
