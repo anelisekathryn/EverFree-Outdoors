@@ -1,4 +1,5 @@
 import './Footer.css'
+import { Link } from 'react-router-dom'
 
 const Footer = ({ user }) => {
   return (
@@ -8,7 +9,7 @@ const Footer = ({ user }) => {
       <div>< a href='/products'>Shop</a></div>
       <div>< a href='/about'>About</a></div>
       <div>< a href='/about'>Meet the Team</a></div>
-        <div><a href={user ? '/add-product' : '/sign-up'}>Add a Product</a></div>
+        <div><Link to='/add-product'>Add a Product</Link></div>
     </div>
     
     <div className='footer-byline'>
