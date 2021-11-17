@@ -1,3 +1,7 @@
+#addproduct-h2 {
+  font-family: 'Playfair Display', serif;
+  color: #EFD595;
+}
 .create-form-container {
   height: 100vh;
   display: flex;
