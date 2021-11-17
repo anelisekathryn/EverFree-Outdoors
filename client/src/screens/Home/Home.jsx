@@ -13,7 +13,6 @@ const Home = (props) => {
       </div>
       <div className='featured-block'>
         <FeaturedProduct />
-        <p>Featured products should be here</p>
         <br />
         <br />
       </div>
@@ -26,7 +25,7 @@ const Home = (props) => {
           </Link>
         </div>
         <div className='image-block'>
-          <h4>This will be the join us image - need link</h4>
+          <img src="https://i.imgur.com/KgqLRTn.jpg" alt="hikers"></img>
         </div>
         <br />
         <br />

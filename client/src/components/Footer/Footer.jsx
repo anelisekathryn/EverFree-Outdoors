@@ -1,6 +1,6 @@
 import './Footer.css'
 
-const Footer = () => {
+const Footer = ({ user }) => {
   return (
   <footer>
     <div className='footermenu'>
@@ -8,7 +8,7 @@ const Footer = () => {
       <div>Shop</div>
       <div>About</div>
       <div>Meet the Team</div>
-      <div>Add a Product</div>
+        <div><a href={user ? '/add-product' : '/sign-up'}>Add a Product</a></div>
     </div>
     
     <div className='footersByline'>
