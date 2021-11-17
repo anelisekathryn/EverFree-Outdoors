@@ -1,10 +1,15 @@
 .about-page {
   text-align: left;
-  width: 88%;
-  margin: auto;
+  /* width: 88%;
+  margin: auto; */
 }
 
 /* ABOUT US ========================================= */
+
+.about {
+  width: 88%;
+  margin: auto;
+}
 
 .about h2 {
   font-family: "Playfair Display", sans-serif;
@@ -20,20 +25,36 @@
 
 /* MEET THE TEAM ================================== */
 
-.meet h2 {
-  font-family: "Playfair Display", sans-serif;
-  font-weight: 700;
-  font-size: 45px;
-}
-
-.daale-links img {
-  width: 2.5vw;
-}
-
 .meet h1 {
   font-family: "Playfair Display", sans-serif;
   font-weight: 600;
   font-size: 120px;
+}
+
+.meet-title {
+  width: 100%;
+  background-color: rgba(239, 213, 149, 0.5);
+  margin-top: 80px;
+}
+
+.meet-title h2 {
+  width: 88%;
+  margin: auto;
+  font-family: "Playfair Display", sans-serif;
+  font-weight: 700;
+  font-size: 45px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.orange-bar {
+  height: 10px;
+  background-color: #f4a261;
+}
+
+.profiles {
+  width: 88%;
+  margin: auto;
 }
 
 .david h1 {
@@ -54,4 +75,8 @@
 
 .ej h1 {
   color: #e76f51;
+}
+
+.daale-links img {
+  width: 2.5vw;
 }
