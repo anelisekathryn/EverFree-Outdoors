@@ -1,17 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Playfair+Display:wght@700&family=Space+Grotesk:wght@500&family=Titillium+Web:wght@700&family=Varela+Round&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Cabin&family=Playfair+Display:wght@700&family=Space+Grotesk:wght@500&family=Titillium+Web:wght@700&family=Varela+Round&display=swap");
 
 #signin-h2 {
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   font-size: 3vh;
-  color: #EFD595;
+  color: #efd595;
 }
 .signin-h3 {
-  color: #FFFFFF;
+  color: #ffffff;
 }
 .here-link {
   text-decoration: none;
-  color: #E76F51;
+  color: #e76f51;
 }
+
 .form-container {
   height: 100vh;
   display: flex;
@@ -19,7 +20,7 @@
   align-items: center;
   background-image: url("https://i.imgur.com/ebmfzLO.jpg");
   background-size: cover;
-  background-repeat: no-repeat; 
+  background-repeat: no-repeat;
 }
 .signin-form {
   display: flex;
@@ -31,7 +32,7 @@
   margin-top: 10vh;
 }
 .signin-input {
-  font-family: 'Cabin', sans-serif;
+  font-family: "Cabin", sans-serif;
   font-size: 100%;
   width: 25vw;
   height: 4vh;
@@ -41,13 +42,13 @@
   padding-left: 20px;
 }
 .sign-in-button {
-  background-color: #E76F51;
+  background-color: #e76f51;
   border-radius: 10px;
   height: 5vh;
   width: 15vw;
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   font-size: 80%;
-  margin-bottom: 4vh; 
+  margin-bottom: 4vh;
 }
 .home-button {
   background-color: #ffffff50;
@@ -55,7 +56,7 @@
   height: 5vh;
   border-radius: 10px;
   font-size: 100%;
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   margin-top: 4vh;
   margin-bottom: 4vh;
-} 
+}
