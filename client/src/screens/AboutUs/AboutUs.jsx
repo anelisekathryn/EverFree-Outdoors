@@ -22,7 +22,7 @@ const AboutUs = (props) => {
           <div className="profiles">
             <div className="david">
               <h1>D</h1>
-              <img></img>
+              <img src="https://i.imgur.com/Ed5OXRj.jpg" alt="david headshot"></img>
               <h4>David Gurule</h4>
               <p>Dave received his software engineering training through G.A. and holds a Masters Degree from CSU.  His passion is people, innovation, technology and how they support each other.  Dave loves space/aviation tech, mountain biking, skiing, and just about everything related to the outdoors.</p>
               <div className="daale-links">
@@ -32,7 +32,7 @@ const AboutUs = (props) => {
             </div>
             <div className="anelise">
               <h1>A</h1>
-              <img></img>
+              <img src="https://i.imgur.com/9GjfRkU.jpg" alt ="anelise headshot"></img>
               <h4>Anelise Bergin</h4>
               <p>Anelise comes from a ten year background of marketing, brand experience, and creative design. With a fresh skillset in full stack web development, she likes to consider herself the all-in-one creative solution in all things web design.</p>
               <div className="daale-links">
@@ -42,7 +42,7 @@ const AboutUs = (props) => {
             </div>
             <div className="andrew">
               <h1>A</h1>
-              <img></img>
+              <img src="https://i.imgur.com/l0yG7WO.jpg" alt ="andrew headshot"></img>
               <h4>Andrew Freedman</h4>
               <p>Drew began his professional career as a full stack web developer and brings over 10 years of experience in technology. Drew has built custom solutions for numerous financial services firms, with a focus on critical risk and reporting applications.</p>
               <div className="daale-links">
@@ -52,7 +52,7 @@ const AboutUs = (props) => {
             </div>
             <div className="lance">
               <h1>L</h1>
-              <img></img>
+              <img src="https://i.imgur.com/yuBmpdC.jpg" alt ="lance headshot"></img>
               <h4>Lance Simmons</h4>
               <p>As a Software Engineer with a background in a diverse art practice and technical support I seek to bring my passion for sharing in creativity. As a meticulous free-thinker, his penchant for finding inspiring new solutions has motivated him to achieve positive change for himself and his community.</p>
               <div className="daale-links">
@@ -62,7 +62,7 @@ const AboutUs = (props) => {
             </div>
             <div className="ej">
               <h1>E</h1>
-              <img></img>
+              <img src="https://i.imgur.com/hoPFt6I.jpg" alt ="ej headshot"></img>
               <h4>EJ Souhmahoro</h4>
               <p>A born and raised New Yorker with passion for problem solving. EJ translates his strong values in dedication, adaptability and resilience to his software engineer/developer role, making him uniquely stand out from other developers.</p>
               <div className="daale-links">
