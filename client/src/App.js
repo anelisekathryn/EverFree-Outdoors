@@ -12,6 +12,8 @@ import AboutUs from "./screens/AboutUs/AboutUs"
 import { verifyUser } from './services/users'
 import SignUp from "./screens/SignUp/SignUp"
 import SignIn from "./screens/SignIn/SignIn"
+import SignOut from "./screens/SignOut/SignOut"
+
 
 function App() {
   const [user, setUser] = useState(null)
@@ -40,12 +42,16 @@ function App() {
           element={<SignIn setUser={setUser}/>}
         />
         <Route
+          path="/sign-out"
+          element={<SignOut setUser={setUser}/>}
+        />
+        <Route
           path="/products"
-          element={<Products />}
+          element={<Products user={user}/>}
         />
         <Route
           path="/products/:id"
-          element={<ProductDetail />}
+          element={<ProductDetail user={user}/>}
         />
         <Route
           path="/products/:id/edit"
