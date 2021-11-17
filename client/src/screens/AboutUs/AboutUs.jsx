@@ -14,7 +14,7 @@ const AboutUs = (props) => {
             Join Us
           </Link>
         </div>
-        <div className="meet">
+        <div className="meet" id="meet-the-team">
           <div className="meet-title">
             <h2>MEET THE TEAM</h2>
           </div>

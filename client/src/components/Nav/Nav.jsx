@@ -34,8 +34,8 @@ const Nav = ({ user }) => {
       <NavLink className='logo' to='/'>EverFree Outdoors</NavLink>
       <div className='links'>
         {alwaysOptions}
-        {user && <div className="link welcome">Welcome, {user.username}</div>}
         {user ? authenticatedOptions : unauthenticatedOptions}
+        {user && <div className="link welcome">Welcome, {user.username}</div>}
       </div>
     </nav>
   )

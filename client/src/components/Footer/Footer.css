@@ -1,0 +1,21 @@
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #264653;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.footer-menu {
+  display: flex;
+  flex-direction: column
+}
+
+.footer-byline {
+  font-size: 10px;
+}
