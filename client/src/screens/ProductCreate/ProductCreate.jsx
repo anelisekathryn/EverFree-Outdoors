@@ -40,7 +40,7 @@ const ProductCreate = (props) => {
     <Layout user={props.user}>
       <div className='create-form-container'>     
       <form className='create-form' onSubmit={handleSubmit}>
-        <h2>Add a Product</h2>
+        <h2 id="addproduct-h2">Add a Product</h2>
         <input 
           className="addproduct-input"
           id='input-name'
