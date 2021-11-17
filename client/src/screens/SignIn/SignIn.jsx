@@ -55,11 +55,11 @@ const SignIn = (props) => {
 
   return (
     <div className='form-container'>
-      <form onSubmit={onSignIn}>
-      <h2>We're so happy you're here!</h2>
-      <h3>New to EverFree? That's ok! Sign up  
+      <form className="signin-form" onSubmit={onSignIn}>
+      <h2 id="signin-h2">We're so happy you're here!</h2>
+      <h3 id="signin-h3">New to EverFree? That's ok! Sign up  
         <Link className="here-link" to="/sign-up"> here</Link>.</h3>  
-        <input
+        <input className="signin-input"
           required
           type='text'
           name='email'
@@ -68,7 +68,7 @@ const SignIn = (props) => {
           onChange={handleChange}
         />
         
-        <input
+        <input className="signin-input"
           required
           name='password'
           value={password}
@@ -78,7 +78,7 @@ const SignIn = (props) => {
         />
         {renderError()}
       </form>
-      <Link to="/"><button className="home-button">home</button></Link>
+      <Link to="/"><button className="signin-home-button">home</button></Link>
     </div>
   )
 }

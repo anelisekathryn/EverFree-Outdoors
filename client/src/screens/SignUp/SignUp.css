@@ -1,9 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Playfair+Display:wght@700&family=Space+Grotesk:wght@500&family=Titillium+Web:wght@700&family=Varela+Round&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Cabin&family=Playfair+Display:wght@700&family=Space+Grotesk:wght@500&family=Titillium+Web:wght@700&family=Varela+Round&display=swap");
 
-h2 {
+#signup-h2 {
+
   font-family: 'Playfair Display', serif;
-  font-size: 3vh;
+  /* font-size: 3vh; */
   color: #EFD595;
+
+
 }
 .form-container {
   height: 100vh;
@@ -12,9 +15,9 @@ h2 {
   align-items: center;
   background-image: url("https://i.imgur.com/ebmfzLO.jpg");
   background-size: cover;
-  background-repeat: no-repeat; 
+  background-repeat: no-repeat;
 }
-form {
+.signup-form {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -23,31 +26,54 @@ form {
   border-radius: 20px;
   margin-top: 10vh;
 }
-input {
+.signup-input {
+
   font-family: 'Cabin', sans-serif;
-  font-size: 50%;
+  /* font-size: 100%; */
+
   width: 25vw;
   height: 4vh;
-  margin-bottom: 1vh;
+  margin-bottom: 3vh;
   border-radius: 10px;
   padding-left: 20px;
 }
-.submit {
-  background-color: #E76F51;
+.signup-button {
+  background-color: #e76f51;
   border-radius: 10px;
   height: 5vh;
   width: 15vw;
+
   font-family: 'Playfair Display', serif;
-  font-size: 80%;
+  /* font-size: 80%; */
   margin-bottom: 4vh; 
+
 }
-.home-button {
+.signup-home-button {
   background-color: #ffffff50;
   width: 15vw;
   height: 5vh;
   border-radius: 10px;
-  font-size: 100%;
+
+  /* font-size: 100%; */
   font-family: 'Playfair Display', serif;
   margin-top: 4vh;
   margin-bottom: 4vh;
 }
+
+@media only screen and (max-width: 600px) {
+  .signup-button {
+    font-size: 70%;
+    width: 50vw;
+  }
+  .signup-home-button {
+    font-size: 70%;
+    width: 50vw;
+  }
+  .signup-form {
+    width: 90%;
+  }
+  .signup-input {
+    width: 70%;
+  }
+}
+
