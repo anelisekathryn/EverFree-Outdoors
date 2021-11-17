@@ -1,6 +1,3 @@
-
-
-
 // import { Layout, Product, Search, Sort } from '../../components'
 // // ^ this import comes from src/components/index.js (will be used in the function below)
 
@@ -14,29 +11,29 @@
 
 // export default Products;
 
-import { useState, useEffect } from 'react'
-import { Link } from "react-router-dom"
-import './Products.css'
+import { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
+import "./Products.css";
 
 // import { Layout, Product, Search, Sort } from '../../components'
-import { Layout, Product, Search } from '../../components'
+import { Layout, Product, Search } from "../../components";
 // import { AZ, ZA, lowestFirst, highestFirst } from '../../utils/sort'
-import { getProducts } from '../../services/products'
+import { getProducts } from "../../services/products";
 
 const Products = (props) => {
-  const [products, setProducts] = useState([])
-  const [searchResult, setSearchResult] = useState([])
+  const [products, setProducts] = useState([]);
+  const [searchResult, setSearchResult] = useState([]);
   // const [applySort, setApplySort] = useState(false)
   // const [sortType, setSortType] = useState('name-ascending')
 
   useEffect(() => {
     const fetchProducts = async () => {
-      const allProducts = await getProducts()
-      setProducts(allProducts)
-      setSearchResult(allProducts)
-    }
-    fetchProducts()
-  }, [])
+      const allProducts = await getProducts();
+      setProducts(allProducts);
+      setSearchResult(allProducts);
+    };
+    fetchProducts();
+  }, []);
 
   // const handleSort = (type) => {
   //   if (type !== '' && type !== undefined) {
@@ -68,18 +65,18 @@ const Products = (props) => {
   const handleSearch = (event) => {
     const results = products.filter((product) =>
       product.name.toLowerCase().includes(event.target.value.toLowerCase())
-    )
-    setSearchResult(results)
+    );
+    setSearchResult(results);
     //setApplySort(true)
-  }
+  };
 
-   const handleSubmit = (event) => event.preventDefault()
+  const handleSubmit = (event) => event.preventDefault();
 
   return (
     <Layout user={props.user}>
       <Search onSubmit={handleSubmit} handleSearch={handleSearch} />
       {/* <Sort onSubmit={handleSubmit} handleSort={handleSort} /> */}
-      <div className='products'>
+      <div className="products">
         {searchResult.map((product, index) => {
           return (
             <Product
@@ -89,17 +86,16 @@ const Products = (props) => {
               // price={product.price}
               // key={index}
             />
-            
-          )
-        }
-        
-        )
-        } 
-         <Link className="addProduct" to="/add-product"> Add Product</Link>
-       
+          );
+        })}
       </div>
-    </Layout>
-  )
-}
 
-export default Products
+      <Link className="addProduct" to="/add-product">
+        {" "}
+        Add Product
+      </Link>
+    </Layout>
+  );
+};
+
+export default Products;
