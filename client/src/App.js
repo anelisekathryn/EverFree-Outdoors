@@ -58,6 +58,8 @@ function App() {
           path="/products/:id/edit"
           // element={<ProductEdit user={user}/>}
           // write in ternary statement to check if user is signed in
+          element={user ? <ProductEdit user={user}/> : <Navigate to='/sign-in'/>}
+
         />
         <Route
           path="/add-product"
