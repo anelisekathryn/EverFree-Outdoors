@@ -3,6 +3,14 @@
   display: flex;
   flex-direction: row;
   height: 50px;
+  justify-content: space-between;
+  padding: 20px 20px 0px 20px;
+}
+
+.nav-margin {
+  display: flex;
+  margin: 20px, 20px, 0px, 20px;
+  justify-content: space-between;
 }
 
 .nav img {
@@ -24,6 +32,8 @@
   display: flex;
   flex-direction: row;
   height: 50px;
+  justify-content: space-between;
+  padding: 20px 20px 0px 20px;
 }
 
 .nav-home a {
@@ -33,7 +43,8 @@
 
 .links {
   display: flex;
-  flex-direction: row
+  flex-direction: row;
+  margin: 0px, 20px, 0px, 20px;
 }
 
 .nav .link-welcome {

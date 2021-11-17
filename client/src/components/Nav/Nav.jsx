@@ -29,8 +29,13 @@ const Nav = ({ user }) => {
 
   return (
     <nav
-      className={location.pathname === '/' ? 'nav-home' : 'nav' }>
-      <NavLink className='logo' to='/'><img className='logo' src="https://i.imgur.com/ny8r9qS.png"/></NavLink>
+      className={location.pathname === '/' ? 'nav-home' : 'nav'}>
+      <NavLink
+        className='logo'
+        to='/'>
+        <img className='logo' src="https://i.imgur.com/ny8r9qS.png" />
+      </NavLink>
+      
       <div className='links'>
         {alwaysOptions}
         {user ? authenticatedOptions : unauthenticatedOptions}
