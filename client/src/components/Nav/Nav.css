@@ -1,9 +1,12 @@
 .nav {
   background-color: #264653;
+  display: flex;
+  flex-direction: row;
 }
 
 .nav-home {
   background-color: transparent;
-  position: absolute
-
+  position: absolute;
+  display: flex;
+  flex-direction: row;
 }
