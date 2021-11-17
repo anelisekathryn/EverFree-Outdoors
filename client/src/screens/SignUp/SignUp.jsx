@@ -52,7 +52,7 @@ const SignUp = (props) => {
         </button>
       )
     } else {
-      return <button className="submit" type='submit'>let's go</button>
+      return <button className="signup-button" type='submit'>let's go</button>
     }
   }
 
@@ -61,42 +61,42 @@ const SignUp = (props) => {
   return (
     <div className='form-container'>
     
-    <form onSubmit={onSignUp}>
-    <h2>Ready for an adventure?</h2>
+    <form className="signup-form" onSubmit={onSignUp}>
+    <h2 id="signup-h2">Ready for an adventure?</h2>
       
-      <input
+      <input className="signup-input"
         required
         type='text'
         name='username'
         value={username}
-        placeholder='Enter Username'
+        placeholder='enter username'
         onChange={handleChange}
       />
       
-      <input
+      <input className="signup-input"
         required
         type='email'
         name='email'
         value={email}
-        placeholder='Enter Email'
+        placeholder='enter email'
         onChange={handleChange}
       />
       
-      <input
+      <input className="signup-input"
         required
         name='password'
         value={password}
         type='password'
-        placeholder='Enter a New Password'
+        placeholder='enter a new password'
         onChange={handleChange}
       />
       
-      <input
+      <input className="signup-input"
         required
         name='passwordConfirmation'
         value={passwordConfirmation}
         type='password'
-        placeholder='Confirm Your Password'
+        placeholder='confirm your password'
         onChange={handleChange}
       />
       
