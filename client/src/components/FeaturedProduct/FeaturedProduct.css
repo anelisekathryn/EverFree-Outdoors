@@ -1,4 +1,4 @@
-/* FEATURED PRODUCTS ============================ */
+/* TITLE ============================ */
 
 .featured-title h3 {
   font-family: "Playfair Display", sans-serif;
@@ -9,36 +9,30 @@
   padding-left: 6%;
 }
 
+/* PRODUCTS ============================ */
+
 .featured-products {
-  /* width: 88%;
-  margin: auto; */
   display: flex;
-  justify-content: space-evenly;
+}
+
+.featured-products-small {
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
 }
 
 .featured-products-large {
-  width: 80%;
-  background-color: blueviolet;
+  flex: 1;
 }
 
 .featured-products-large img {
   padding: 10px;
   border: 1px solid black;
-}
-
-.featured-products-small {
-  display: flex;
-  flex-wrap: wrap;
-  background-color: chartreuse;
+  width: 60%;
 }
 
 .featured-products-small img {
-  padding: 10px;
-  margin: 20px;
   border: 1px solid black;
-  width: 30%;
-}
-
-.image-block img {
-  width: 20%;
+  width: 60%;
 }

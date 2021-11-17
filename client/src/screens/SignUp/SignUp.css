@@ -1,8 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Playfair+Display:wght@700&family=Space+Grotesk:wght@500&family=Titillium+Web:wght@700&family=Varela+Round&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Cabin&family=Playfair+Display:wght@700&family=Space+Grotesk:wght@500&family=Titillium+Web:wght@700&family=Varela+Round&display=swap");
 
 #signup-h2 {
+
   font-family: 'Playfair Display', serif;
   color: #EFD595;
+
 
 }
 .form-container {
@@ -12,7 +14,7 @@
   align-items: center;
   background-image: url("https://i.imgur.com/ebmfzLO.jpg");
   background-size: cover;
-  background-repeat: no-repeat; 
+  background-repeat: no-repeat;
 }
 .signup-form {
   display: flex;
@@ -24,8 +26,14 @@
   margin-top: 10vh;
 }
 .signup-input {
+
   font-family: 'Cabin', sans-serif;
+<<<<<<< HEAD
   
+=======
+  /* font-size: 100%; */
+
+>>>>>>> 0d5278b167213a9382fc4ce725ea7ea843cf9705
   width: 25vw;
   height: 4vh;
   margin-bottom: 3vh;
@@ -33,18 +41,25 @@
   padding-left: 20px;
 }
 .signup-button {
-  background-color: #E76F51;
+  background-color: #e76f51;
   border-radius: 10px;
   height: 5vh;
   width: 15vw;
+
   font-family: 'Playfair Display', serif;
   margin-bottom: 4vh; 
+
 }
 .signup-home-button {
   background-color: #ffffff50;
   width: 15vw;
   height: 5vh;
   border-radius: 10px;
+<<<<<<< HEAD
+=======
+
+  /* font-size: 100%; */
+>>>>>>> 0d5278b167213a9382fc4ce725ea7ea843cf9705
   font-family: 'Playfair Display', serif;
   margin-top: 4vh;
   margin-bottom: 4vh;
@@ -66,3 +81,4 @@
     width: 70%;
   }
 }
+
