@@ -1,12 +1,19 @@
 @import url("https://fonts.googleapis.com/css2?family=Cabin&family=Playfair+Display:wght@700&family=Space+Grotesk:wght@500&family=Titillium+Web:wght@700&family=Varela+Round&display=swap");
 
-#signup-h2 {
+#signin-h2 {
 
   font-family: 'Playfair Display', serif;
   color: #EFD595;
 
-
 }
+.signin-h3 {
+  color: #ffffff;
+}
+.here-link {
+  text-decoration: none;
+  color: #e76f51;
+}
+
 .form-container {
   height: 100vh;
   display: flex;
@@ -16,7 +23,7 @@
   background-size: cover;
   background-repeat: no-repeat;
 }
-.signup-form {
+.signin-form {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -25,16 +32,18 @@
   border-radius: 20px;
   margin-top: 10vh;
 }
-.signup-input {
+.signin-input {
 
   font-family: 'Cabin', sans-serif;
+
   width: 25vw;
   height: 4vh;
+  margin-top: 1vh;
   margin-bottom: 3vh;
   border-radius: 10px;
   padding-left: 20px;
 }
-.signup-button {
+.sign-in-button {
   background-color: #e76f51;
   border-radius: 10px;
   height: 5vh;
@@ -44,30 +53,32 @@
   margin-bottom: 4vh; 
 
 }
-.signup-home-button {
+.signin-home-button {
   background-color: #ffffff50;
   width: 15vw;
   height: 5vh;
   border-radius: 10px;
+
   font-family: 'Playfair Display', serif;
   margin-top: 4vh;
   margin-bottom: 4vh;
-}
+} 
 
 @media only screen and (max-width: 600px) {
-  .signup-button {
+  .sign-in-button {
     font-size: 70%;
     width: 50vw;
   }
-  .signup-home-button {
+  .signin-home-button {
     font-size: 70%;
     width: 50vw;
   }
-  .signup-form {
+  .signin-form {
     width: 90%;
   }
-  .signup-input {
+  .signin-input {
     width: 70%;
   }
 }
+
 

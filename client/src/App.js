@@ -1,23 +1,73 @@
-import logo from './logo.svg';
 import './App.css';
 
+import { useState, useEffect } from "react";
+import { Route, Routes, Navigate } from "react-router-dom";
+
+import Home from "./screens/Home/Home"
+import Products from "./screens/Products/Products"
+import ProductCreate from "./screens/ProductCreate/ProductCreate"
+import ProductEdit from "./screens/ProductEdit/ProductEdit"
+import ProductDetail from "./screens/ProductDetail/ProductDetail"
+import AboutUs from "./screens/AboutUs/AboutUs"
+import { verifyUser } from './services/users'
+import SignUp from "./screens/SignUp/SignUp"
+import SignIn from "./screens/SignIn/SignIn"
+import SignOut from "./screens/SignOut/SignOut"
+
+
 function App() {
+  const [user, setUser] = useState(null)
+  
+  useEffect(() => {
+    const fetchUser = async () => {
+      const user = await verifyUser()
+      user ? setUser(user) : setUser(null)
+    }
+    fetchUser()
+  }, [])
+  
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Routes>
+        <Route
+          exact path="/"
+          element={<Home user={user} />}
+        />
+        <Route
+          path="/sign-up"
+          element={<SignUp setUser={setUser}/>}
+        />
+        <Route
+          path="/sign-in"
+          element={<SignIn setUser={setUser}/>}
+        />
+        <Route
+          path="/sign-out"
+          element={<SignOut setUser={setUser}/>}
+        />
+        <Route
+          path="/products"
+          element={<Products user={user}/>}
+        />
+        <Route
+          path="/products/:id"
+          element={<ProductDetail user={user}/>}
+        />
+        <Route
+          path="/products/:id/edit"
+          element={<ProductEdit />}
+          // write in ternary statement to check if user is signed in
+        />
+        <Route
+          path="/add-product"
+          element={<ProductCreate />}
+          // write in ternary statement to check if user is signed in
+        />
+        <Route
+          path="/about"
+          element={<AboutUs />}
+        />
+      </Routes>
     </div>
   );
 }

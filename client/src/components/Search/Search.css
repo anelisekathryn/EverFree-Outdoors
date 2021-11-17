@@ -1,0 +1,20 @@
+
+.search-wrapper {
+ display: flex;
+ justify-content: flex-end;
+ padding-right: 80px;
+}
+
+
+.search-form input.search-input {
+    background-color: #EFD595;
+    color: #2A9D8F;
+    border-radius: 3px;
+    padding: 10px 10px 10px 10px;
+    width: 300px;
+    border: none;
+    resize: none;
+    outline: none;
+   
+   
+}
