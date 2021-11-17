@@ -31,6 +31,10 @@
   padding-left: 6%;
 }
 
+.image-block img {
+  width: 20%;
+}
+
 /* QUOTE ====================================== */
 
 .quote-block {

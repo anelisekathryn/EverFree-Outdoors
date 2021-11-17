@@ -1,6 +1,8 @@
 .url {
   height: 400px;
   border: 1px solid rgb(0, 0, 0);
+  display: flex;
+  align-items: center;
 }
 .wrapper {
   display: flex;
@@ -13,7 +15,7 @@
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-evenly;
-  line-height: 60px;
+  line-height: 40px;
 
   width: 500px;
 }
@@ -22,4 +24,5 @@
 }
 .name {
   color: #e76f51;
+  /* margin-right: 110px; */
 }
