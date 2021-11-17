@@ -3,7 +3,7 @@ import { getProduct, deleteProduct } from '../../services/products';
 import { useParams, Link} from 'react-router-dom'
 import { Layout } from '../../components';
 import CSS from './ProductDetail.css'
-const ProductDetail = () => {
+const ProductDetail = (props) => {
   const [product, setProduct] = useState([])
   let { id } = useParams()
   
@@ -17,14 +17,15 @@ const ProductDetail = () => {
     fetchProduct()
   },[id])
   return (
-    <Layout>
+    <Layout user={props.user}>
     <div>
-      <h2 className='name'>{product.name }</h2>
+      
       
         <div className='wrapper'>
           
           <img className='url' src={product.imgURL} />
           <div className='price-wrapper'>
+          <h2 className='name'>{product.name }</h2>
           <h3 className='price'>{`$${product.price}`}</h3>
           <p className='description'>{product.description}</p>
           </div>
