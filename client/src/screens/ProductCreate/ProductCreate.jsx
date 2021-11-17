@@ -40,7 +40,7 @@ const ProductCreate = (props) => {
     <Layout user={props.user}>
       <div className='create-form-container'>     <form className='create-form' onSubmit={handleSubmit}>
         <h2>Add a Product</h2>
-        <input 
+        <input className="addproduct-input"
           className='input-name'
           placeholder='name'
           value={product.name}
@@ -49,7 +49,7 @@ const ProductCreate = (props) => {
           autoFocus
           onChange={handleChange}
         />
-         <input
+         <input className="addproduct-input"
           className='input-image-link'
           placeholder='image link url'
           value={product.imgURL}
@@ -57,7 +57,7 @@ const ProductCreate = (props) => {
           required
           onChange={handleChange}
         />
-        <textarea
+        <textarea className="addproduct-input"
           className='text-area-description'
           rows={10}
           placeholder='description'
@@ -66,7 +66,7 @@ const ProductCreate = (props) => {
           required
           onChange={handleChange}
         />
-        <input
+        <input className="addproduct-input"
           className='input-type'
           placeholder='type'
           value={product.type}
@@ -74,7 +74,7 @@ const ProductCreate = (props) => {
           required
           onChange={handleChange}
         />
-        <input
+        <input className="addproduct-input"
           className='input-price'
           placeholder='price'
           value={product.price}
