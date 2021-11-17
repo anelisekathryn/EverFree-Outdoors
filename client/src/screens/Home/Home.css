@@ -1,10 +1,32 @@
 /* HEADER ==================================== */
+.header {
+  display: block;
+}
+
+/* use flexbox instead? image absolute? use flex start on text */
 
 .header img {
   margin: auto;
-  display: block;
   height: auto;
   width: 100%;
+}
+
+.header-text {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: auto;
+  height: auto;
+  width: 100%;
+}
+
+.header-text h1 {
+  width: 100%;
+  font-family: "Playfair Display", sans-serif;
+  font-weight: 700;
+  font-size: 4.2vw;
+  color: #ffffff;
 }
 
 /* JOIN US ==================================== */
@@ -35,18 +57,19 @@
   width: 20%;
 }
 
-/* QUOTE ====================================== */
+/* QUOTE BLOCK ====================================== */
 
 .quote-block {
   text-align: center;
   margin: auto;
   width: 88%;
+  margin-bottom: 110px;
 }
 
 .quote-block h2 {
   font-family: "Playfair Display", sans-serif;
   font-weight: 700;
-  font-size: 90px;
+  font-size: 6.7vw;
   color: #2a9d8f;
   margin-bottom: 10px;
 }
@@ -54,6 +77,34 @@
 .quote-block p {
   font-family: "Cabin", sans-serif;
   font-weight: 200;
-  font-size: 35px;
+  font-size: 2.35vw;
   margin-top: 10px;
+}
+
+/* ACTION BLOCK ====================================== */
+
+.action-block {
+  width: 88%;
+  margin: auto;
+  display: flex;
+  column-gap: 50px;
+}
+
+.action-block img {
+  width: 20%;
+}
+
+.action-block h4 {
+  font-family: "Playfair Display", sans-serif;
+  font-weight: 700;
+  font-size: 35px;
+  color: #264653;
+  margin-top: 8px;
+  margin-bottom: 12px;
+}
+
+.action-block p {
+  font-family: "Cabin", sans-serif;
+  font-weight: 200;
+  font-size: 18px;
 }
