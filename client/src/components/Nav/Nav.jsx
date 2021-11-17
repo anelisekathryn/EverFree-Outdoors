@@ -33,7 +33,7 @@ const Nav = ({ user }) => {
       <NavLink
         className='logo'
         to='/'>
-        <img className='logo' src={location.pathname === '/' ? "https://i.imgur.com/u3u8JHb.png" : "https://i.imgur.com/iIWZzLV.png"} />
+        <img src={location.pathname === '/' ? "https://i.imgur.com/u3u8JHb.png" : "https://i.imgur.com/iIWZzLV.png"} />
       </NavLink>
       
       <div className='links'>
