@@ -55,17 +55,17 @@ function App() {
         />
         <Route
           path="/products/:id/edit"
-          element={<ProductEdit />}
+          element={<ProductEdit user={user}/>}
           // write in ternary statement to check if user is signed in
         />
         <Route
           path="/add-product"
-          element={<ProductCreate />}
+          element={<ProductCreate user={user}/>}
           // write in ternary statement to check if user is signed in
         />
         <Route
           path="/about"
-          element={<AboutUs />}
+          element={<AboutUs user={user}/>}
         />
       </Routes>
     </div>
