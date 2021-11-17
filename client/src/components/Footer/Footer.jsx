@@ -8,7 +8,7 @@ const Footer = ({ user }) => {
       <div><Link to='/'>Home</Link></div>
       <div><Link to='/products'>Shop</Link></div>
       <div><Link to='/about'>About</Link></div>
-      <div><Link to='/about'>Meet the Team</Link></div>
+      <div><Link to='/about#meet-the-team'>Meet the Team</Link></div>
         <div><Link to='/add-product'>Add a Product</Link></div>
     </div>
     

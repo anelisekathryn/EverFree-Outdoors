@@ -2,6 +2,15 @@
   background-color: #264653;
   display: flex;
   flex-direction: row;
+  height: 50px;
+}
+
+.nav img {
+  max-height: 100%;
+}
+
+.nav-home img {
+  max-height: 100%;
 }
 
 .nav a {
@@ -14,6 +23,7 @@
   position: absolute;
   display: flex;
   flex-direction: row;
+  height: 50px;
 }
 
 .nav-home a {
@@ -26,7 +36,11 @@
   flex-direction: row
 }
 
-.link-welcome {
+.nav .link-welcome {
+  color: white;
+}
+
+.nav-home .link-weklcom {
   color: white;
 }
 
