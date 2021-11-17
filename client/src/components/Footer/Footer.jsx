@@ -8,7 +8,7 @@ const Footer = ({ user }) => {
       <div>Shop</div>
       <div>About</div>
       <div>Meet the Team</div>
-        <div><a href={user ? '/add-product' : '/sign-in'}>Add a Product</a></div>
+        <div><a href={user ? '/add-product' : '/sign-up'}>Add a Product</a></div>
     </div>
     
     <div className='footersByline'>
