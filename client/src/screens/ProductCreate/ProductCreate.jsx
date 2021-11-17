@@ -38,11 +38,11 @@ const ProductCreate = (props) => {
 
   return (
     <Layout user={props.user}>
-      <form className='create-form' onSubmit={handleSubmit}>
+      <div className='create-form-container'>     <form className='create-form' onSubmit={handleSubmit}>
         <h2>Add a Product</h2>
         <input 
           className='input-name'
-          placeholder='NAME'
+          placeholder='name'
           value={product.name}
           name='name'
           required
@@ -51,7 +51,7 @@ const ProductCreate = (props) => {
         />
          <input
           className='input-image-link'
-          placeholder='IMAGE LINK URL'
+          placeholder='image link url'
           value={product.imgURL}
           name='imgURL'
           required
@@ -60,15 +60,23 @@ const ProductCreate = (props) => {
         <textarea
           className='text-area-description'
           rows={10}
-          placeholder='DESCRIPTION'
+          placeholder='description'
           value={product.description}
           name='description'
           required
           onChange={handleChange}
         />
         <input
+          className='input-type'
+          placeholder='type'
+          value={product.type}
+          name='type'
+          required
+          onChange={handleChange}
+        />
+        <input
           className='input-price'
-          placeholder='PRICE'
+          placeholder='price'
           value={product.price}
           name='price'
           required
@@ -76,6 +84,7 @@ const ProductCreate = (props) => {
         />
         <button type='submit' className='submit-button'>let's go</button>
       </form>
+      </div>
     </Layout>
   )
 }
