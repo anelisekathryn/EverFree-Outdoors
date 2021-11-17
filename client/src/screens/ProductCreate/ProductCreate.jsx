@@ -38,10 +38,12 @@ const ProductCreate = (props) => {
 
   return (
     <Layout user={props.user}>
-      <div className='create-form-container'>     <form className='create-form' onSubmit={handleSubmit}>
+      <div className='create-form-container'>     
+      <form className='create-form' onSubmit={handleSubmit}>
         <h2>Add a Product</h2>
-        <input className="addproduct-input"
-          className='input-name'
+        <input 
+          className="addproduct-input"
+          id='input-name'
           placeholder='name'
           value={product.name}
           name='name'
@@ -49,16 +51,18 @@ const ProductCreate = (props) => {
           autoFocus
           onChange={handleChange}
         />
-         <input className="addproduct-input"
-          className='input-image-link'
+         <input 
+          className="addproduct-input"
+          id='input-image-link'
           placeholder='image link url'
           value={product.imgURL}
           name='imgURL'
           required
           onChange={handleChange}
         />
-        <textarea className="addproduct-input"
-          className='text-area-description'
+        <textarea 
+          className="addproduct-input"
+          id='text-area-description'
           rows={10}
           placeholder='description'
           value={product.description}
@@ -66,23 +70,25 @@ const ProductCreate = (props) => {
           required
           onChange={handleChange}
         />
-        <input className="addproduct-input"
-          className='input-type'
+        <input 
+          className="addproduct-input"
+          id='input-type'
           placeholder='type'
           value={product.type}
           name='type'
           required
           onChange={handleChange}
         />
-        <input className="addproduct-input"
-          className='input-price'
+        <input
+          className="addproduct-input"
+          id='input-price'
           placeholder='price'
           value={product.price}
           name='price'
           required
           onChange={handleChange}
         />
-        <button type='submit' className='submit-button'>let's go</button>
+        <button type='submit' className='add-submit-button'>let's go</button>
       </form>
       </div>
     </Layout>

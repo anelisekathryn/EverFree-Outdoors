@@ -2,7 +2,7 @@
 
 #signup-h2 {
   font-family: 'Playfair Display', serif;
-  font-size: 3vh;
+  /* font-size: 3vh; */
   color: #EFD595;
 
 }
@@ -26,10 +26,10 @@
 }
 .signup-input {
   font-family: 'Cabin', sans-serif;
-  font-size: 100%;
+  /* font-size: 100%; */
   width: 25vw;
   height: 4vh;
-  margin-bottom: 1vh;
+  margin-bottom: 3vh;
   border-radius: 10px;
   padding-left: 20px;
 }
@@ -39,16 +39,33 @@
   height: 5vh;
   width: 15vw;
   font-family: 'Playfair Display', serif;
-  font-size: 80%;
+  /* font-size: 80%; */
   margin-bottom: 4vh; 
 }
-.home-button {
+.signup-home-button {
   background-color: #ffffff50;
   width: 15vw;
   height: 5vh;
   border-radius: 10px;
-  font-size: 100%;
+  /* font-size: 100%; */
   font-family: 'Playfair Display', serif;
   margin-top: 4vh;
   margin-bottom: 4vh;
+}
+
+@media only screen and (max-width: 600px) {
+  .signup-button {
+    font-size: 70%;
+    width: 50vw;
+  }
+  .signup-home-button {
+    font-size: 70%;
+    width: 50vw;
+  }
+  .signup-form {
+    width: 90%;
+  }
+  .signup-input {
+    width: 70%;
+  }
 }
