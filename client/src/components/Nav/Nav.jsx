@@ -4,7 +4,7 @@ import { SignOut } from '../../components'
 
 const authenticatedOptions = (
   <>
-    <SignOut />
+      <NavLink className="link" to="/sign-out">Sign Out</NavLink>
   </>
 )
 const unauthenticatedOptions = (
@@ -25,8 +25,8 @@ const Nav = ({ user }) => {
     <nav>
       <NavLink className='logo' to='/'>EverFree Outdoors</NavLink>
       <div className='links'>
-        {user && <div className="link welcome">Welcome, {user.username}</div>}
         {alwaysOptions}
+        {user && <div className="link welcome">Welcome, {user.username}</div>}
         {user ? authenticatedOptions : unauthenticatedOptions}
       </div>
     </nav>
