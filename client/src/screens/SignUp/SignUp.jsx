@@ -69,7 +69,7 @@ const SignUp = (props) => {
         type='text'
         name='username'
         value={username}
-        placeholder='Enter Username'
+        placeholder='enter username'
         onChange={handleChange}
       />
       
@@ -78,7 +78,7 @@ const SignUp = (props) => {
         type='email'
         name='email'
         value={email}
-        placeholder='Enter Email'
+        placeholder='enter email'
         onChange={handleChange}
       />
       
@@ -87,7 +87,7 @@ const SignUp = (props) => {
         name='password'
         value={password}
         type='password'
-        placeholder='Enter a New Password'
+        placeholder='enter a new password'
         onChange={handleChange}
       />
       
@@ -96,7 +96,7 @@ const SignUp = (props) => {
         name='passwordConfirmation'
         value={passwordConfirmation}
         type='password'
-        placeholder='Confirm Your Password'
+        placeholder='confirm your password'
         onChange={handleChange}
       />
       
