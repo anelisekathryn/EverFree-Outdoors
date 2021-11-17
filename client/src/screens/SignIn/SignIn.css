@@ -26,14 +26,14 @@ form {
   flex-direction: column;
   align-items: center;
   background-color: #264653;
-  width: 50vw;
+  width: 40vw;
   border-radius: 20px;
   margin-top: 10vh;
 }
 input {
   font-family: 'Cabin', sans-serif;
-  font-size: 30px;
-  width: 40vw;
+  font-size: 50%;
+  width: 25vw;
   height: 4vh;
   margin-top: 1vh;
   margin-bottom: 3vh;
@@ -44,17 +44,17 @@ input {
   background-color: #E76F51;
   border-radius: 10px;
   height: 5vh;
-  width: 20vw;
+  width: 15vw;
   font-family: 'Playfair Display', serif;
-  font-size: 40px;
+  font-size: 80%;
   margin-bottom: 4vh; 
 }
 .home-button {
   background-color: #ffffff50;
-  width: 20vw;
+  width: 15vw;
   height: 5vh;
   border-radius: 10px;
-  font-size: 40px;
+  font-size: 100%;
   font-family: 'Playfair Display', serif;
   margin-top: 4vh;
   margin-bottom: 4vh;
