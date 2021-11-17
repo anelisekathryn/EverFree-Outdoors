@@ -1,6 +1,55 @@
+/* HEADER ==================================== */
+
 .header img {
   margin: auto;
   display: block;
   height: auto;
   width: 100%;
+}
+
+/* JOIN US ==================================== */
+
+.join-block {
+  text-align: left;
+  margin: auto;
+  width: 100%;
+  background-color: #f4a261;
+}
+
+.join-block h4 {
+  font-family: "Playfair Display", sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  color: #264653;
+  padding-left: 6%;
+}
+
+.join-block p {
+  font-family: "Cabin", sans-serif;
+  font-weight: 200;
+  font-size: 16px;
+  padding-left: 6%;
+}
+
+/* QUOTE ====================================== */
+
+.quote-block {
+  text-align: center;
+  margin: auto;
+  width: 88%;
+}
+
+.quote-block h2 {
+  font-family: "Playfair Display", sans-serif;
+  font-weight: 700;
+  font-size: 90px;
+  color: #2a9d8f;
+  margin-bottom: 10px;
+}
+
+.quote-block p {
+  font-family: "Cabin", sans-serif;
+  font-weight: 200;
+  font-size: 35px;
+  margin-top: 10px;
 }
