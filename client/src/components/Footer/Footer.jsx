@@ -3,13 +3,15 @@ import { Link } from 'react-router-dom'
 
 const Footer = ({ user }) => {
   return (
-  <footer>
+    <footer>
+      
+      <div className='footer-margin'>
     <div className='footer-menu'>
-      <div><Link to='/'>Home</Link></div>
-      <div><Link to='/products'>Shop</Link></div>
-      <div><Link to='/about'>About</Link></div>
-      <div><Link to='/about'>Meet the Team</Link></div>
-        <div><Link to='/add-product'>Add a Product</Link></div>
+      <div className='menu-item'><Link to='/'>Home</Link></div>
+      <div className='menu-item'><Link to='/products'>Shop</Link></div>
+      <div className='menu-item'><Link to='/about'>About</Link></div>
+      <div className='menu-item'><Link to='/about#meet-the-team'>Meet the Team</Link></div>
+      <div className='menu-item'><Link to='/add-product'>Add a Product</Link></div>
     </div>
     
     <div className='footer-byline'>
@@ -19,7 +21,11 @@ const Footer = ({ user }) => {
       <h5>David Gurule</h5>
       <h5>Ej Soumahoro</h5>
       <h5>Lance Simmons</h5>
-    </div>
+      </div>
+      </div>
+      {/* <div>
+      <img src='https://i.imgur.com/xL9R8iT.png'/>
+      </div> */}
     </footer>
   )
 }
