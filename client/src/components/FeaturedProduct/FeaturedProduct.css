@@ -8,34 +8,21 @@
   text-align: left;
   padding-left: 6%;
   padding-top: 20px;
-  padding-bottom: 10px;
+  padding-bottom: 0px;
 }
 
-/* PRODUCTS ============================ */
+/* PRODUCTS 4 ONLY TEST ============================ */
 
 .featured-products {
+  width: 88%;
+  margin: 0 auto;
   display: flex;
   padding-bottom: 80px;
+  justify-content: space-between;
+  /* column-gap: 20px; */
 }
 
-.featured-products-small {
-  width: 50%;
-  display: flex;
-  flex-wrap: wrap;
-  align-content: space-between;
-}
-
-.featured-products-large {
-  flex: 1;
-}
-
-.featured-products-large img {
-  padding: 10px;
+.featured-products img {
   border: 1px solid black;
-  width: 60%;
-}
-
-.featured-products-small img {
-  border: 1px solid black;
-  width: 60%;
+  width: 20vw;
 }

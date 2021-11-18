@@ -17,17 +17,9 @@ const FeaturedProduct = () => {
     fetchProducts()
   }, [])
 
-  const FEATURED1 = products.slice(0,1).map((product, index) =>
-    product.featured ? (
-      <Product
-      _id={product._id}
-      imgURL={product.imgURL}
-      key={index}
-      />
-    ) : null
-  )
+  // PRODUCTS 4 ONLY - TEST ======================================
 
-  const FEATURED2 = products.slice(1,5).map((product, index) =>
+  const FEATURED = products.slice(0,4).map((product, index) =>
     product.featured ? (
       <Product
       _id={product._id}
@@ -44,17 +36,11 @@ const FeaturedProduct = () => {
       </div>
 
       <div className="featured-products">
-        <div className="featured-products-large">
-          {FEATURED1}
-        </div>
-        <div className="featured-products-small">
-          {FEATURED2}
-        </div>
+        {FEATURED}
       </div>
       
     </div>
   )
-
 }
 
 export default FeaturedProduct
