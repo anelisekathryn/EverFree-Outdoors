@@ -13,10 +13,11 @@
 }
 
 .products-wrapper .product img {
-    width: 200px;
+    width: 150px;
     border: 1px solid #E4E5E7;
     transition: transform .2s; /* Animation */
-    margin-top: 40px
+    margin-top: 40px;
+    padding: 20px;
 }
 
 .products-wrapper .product img:hover {
