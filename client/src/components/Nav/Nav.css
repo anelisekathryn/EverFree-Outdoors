@@ -1,3 +1,8 @@
+nav {
+  font-family: "Cabin", sans-serif;
+
+}
+
 .nav-margin {
   display: flex;
   padding-top: 20px
@@ -63,13 +68,13 @@
 
 .nav .link-welcome {
   color: white;
-  margin: 0px 0px 0px 40px;
+  margin: 10px 0px 0px 40px;
   font-size: 12px;
 }
 
 .nav-home .link-welcome {
   color: #264653;
-  margin: 0px 0px 0px 40px;
+  margin: 10px 0px 0px 40px;
   font-size: 12px;
 }
 

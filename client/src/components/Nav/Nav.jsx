@@ -5,19 +5,20 @@ import { useEffect } from 'react'
 
 const authenticatedOptions = (
   <>
-      <NavLink className="link" to="/sign-out">Sign Out</NavLink>
+      <NavLink className="link" to="/sign-out">SIGN OUT</NavLink>
   </>
 )
 const unauthenticatedOptions = (
   <>
-      <NavLink className="link" to="/sign-up">Sign Up</NavLink>
-      <NavLink className="link" to="/sign-in">Sign In</NavLink>
+      <NavLink className="link" to="/sign-up">SIGN UP</NavLink>
+      <NavLink className="link" to="/sign-in">SIGN IN</NavLink>
   </>
 )
 const alwaysOptions = (
   <>
-    <NavLink className="link" to="/about">About</NavLink>
-    <NavLink className="link" to="/products">Products</NavLink>
+    <NavLink className="link" to="/about">ABOUT</NavLink>
+    <NavLink className="link" to="/products">PRODUCTS</NavLink>
+    <NavLink className="link" to="/about#meet-the-team">MEET THE TEAM</NavLink>
   </>
 )
 
