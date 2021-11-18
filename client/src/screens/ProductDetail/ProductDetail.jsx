@@ -29,15 +29,14 @@ const ProductDetail = (props) => {
             <h2 className="name">{product.name}</h2>
             <h3 className="price">{`$ ${product.price}`}</h3>
             <div> {showMore ? description : substring.substring(0, 250)} </div>
-
-            {/* if desciption has less than 250 characer don't display show more*/}
-
-            <button
-              className="save-button"
-              onClick={() => setShowMore(!showMore)}
-            >
-              {showMore ? "Read Less " : "Read More"}
-            </button>
+            {description && description.length <= 250 ? null : (
+              <button
+                className="save-button"
+                onClick={() => setShowMore(!showMore)}
+              >
+                {showMore ? "Read Less " : "Read More"}
+              </button>
+            )}
           </div>
         </div>
       </div>
