@@ -49,23 +49,28 @@ const ProductEdit = (props) => {
 
   return (
     <Layout user={props.user}>
-      <div>
+      <div className='container-div'>
         <form htmlFor="EditInfo" className="editForm" onSubmit={handleSubmit}>
-          <input
+          <img className="url" src={product.imgURL} onChange={handleChange} />
+          <div className='form-wrapper'>
+            <input
+              className='inputs'
             name='name'
             type="text"
             value={product.name}
             onChange={handleChange}
             required
           />
-          <input
+            <input
+              className='inputs'
             name='price'
             type="text"
-            value={product.price}
+              value={product.price}
             onChange={handleChange}
             required
           />
-          <textarea
+            <textarea
+              className='inputs'
             name='description'
             value={product.description}
             onChange={handleChange}
@@ -73,8 +78,9 @@ const ProductEdit = (props) => {
             cols={38}
             required
           ></textarea>
-          <img className="url" src={product.imgURL} onChange={handleChange} />
-          <input
+          
+            <input
+              className='inputs'
             name='imgURL'
             type="text"
             value={product.imgURL}
@@ -84,6 +90,7 @@ const ProductEdit = (props) => {
           <button type="submit" className="save-button">
             Save
           </button>
+          </div>
         </form>
       </div>
     </Layout>
