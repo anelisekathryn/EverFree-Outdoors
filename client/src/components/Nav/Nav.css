@@ -1,6 +1,5 @@
 nav {
   font-family: "Cabin", sans-serif;
-
 }
 
 .nav-margin {
@@ -61,6 +60,13 @@ nav {
 }
 
 .links {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+  justify-content: space-evenly;
+}
+
+.nav-home .links {
   display: flex;
   flex-direction: row;
   flex-grow: 1;
