@@ -18,18 +18,22 @@ const Home = (props) => {
       <div className='featured-block'>
         <FeaturedProduct />
       </div>
+
+      
       <div className='join-block'>
-        <div className='text-block'>
+        <div className='join-text-block'>
           <h4>Join Us Outdoors</h4>
           <p>Shopping at EverFree Outdoors means you’re part of a community. Get unplugged, get free, and get outside with us (and find great deals along the way).</p>
           <Link className="join-button" to="/sign-up">
-            Join Us
+            join us
           </Link>
         </div>
-        <div className='image-block'>
+        <div className='join-image-block'>
           <img src="https://i.imgur.com/KgqLRTn.jpg" alt="hikers"></img>
         </div>
       </div>
+
+
       <div className='quote-block'>
         <h2>Not all who wander are lost.</h2>
         <p>If it wasn’t for hiking, I would not have discovered the trails, soaring trees, chirping birds <br /> and rolling dunes in multiple parts of the world.  Pashmina, 2021</p>
