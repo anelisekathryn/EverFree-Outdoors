@@ -42,9 +42,11 @@ const SignIn = (props) => {
     const toggleForm = form.isError ? 'danger' : ''
     if (form.isError) {
       return (
-        <button type='submit' className={toggleForm}>
-          {form.errorMsg}
-        </button>
+        <div className="errorDiv">
+        <button type='submit' className={toggleForm}>{form.errorMsg}</button>
+        <br />
+        <button className="sign-in-button" type='submit'>let's go</button>
+        </div>
       )
     } else {
       return <button className="sign-in-button" type='submit'>let's go</button>
