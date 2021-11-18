@@ -29,6 +29,18 @@
   color: #ffffff;
 }
 
+.header-text a {
+  text-decoration: none;
+  color: black;
+  background-color: #efd595;
+  padding: 12px;
+  border-radius: 5px;
+  font-family: "Playfair Display", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  /* font-size: 1.2vw; */
+}
+
 /* JOIN US ==================================== */
 
 .join-block {
@@ -87,20 +99,17 @@
   width: 88%;
   margin: auto;
   display: flex;
-  column-gap: 50px;
-}
-
-.action-block img {
-  width: 20%;
+  column-gap: 60px;
+  margin-bottom: 90px;
 }
 
 .action-block h4 {
   font-family: "Playfair Display", sans-serif;
   font-weight: 700;
-  font-size: 35px;
+  font-size: 3vw;
   color: #264653;
   margin-top: 8px;
-  margin-bottom: 12px;
+  margin-bottom: 16px;
 }
 
 .action-block p {
