@@ -34,7 +34,7 @@ const ProductDetail = (props) => {
             {/* if desciption has less than 250 characer don't display show more*/}
 
             <button
-              className="buttonColor"
+               className='save-button'
               onClick={() => setShowMore(!showMore)}
             >
               {showMore ? "Read Less " : "Read More"}
@@ -43,13 +43,13 @@ const ProductDetail = (props) => {
         </div>
       </div>
       <div className="button-container">
-        <button>
+        <button className='save-button'>
           <Link className="edit-button" to={`/products/${product._id}/edit`}>
             Edit
           </Link>
         </button>
         <button
-          className="delete-button"
+           className='save-button'
           onClick={() => deleteProduct(product._id)}
         >
           Delete
