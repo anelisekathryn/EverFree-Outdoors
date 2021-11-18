@@ -19,7 +19,7 @@ const Home = (props) => {
         <FeaturedProduct />
       </div>
 
-      
+
       <div className='join-block'>
         <div className='join-text-block'>
           <h4>Join Us Outdoors</h4>
@@ -29,7 +29,7 @@ const Home = (props) => {
           </Link>
         </div>
         <div className='join-image-block'>
-          <img src="https://i.imgur.com/KgqLRTn.jpg" alt="hikers"></img>
+          <img src="https://i.imgur.com/zppPCEE.jpg" alt="hikers"></img>
         </div>
       </div>
 
