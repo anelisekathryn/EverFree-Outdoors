@@ -5,10 +5,11 @@ footer {
   background-size: 75% 75%;
   background-repeat: no-repeat;
   background-position: bottom;
+  font-family: "Cabin", sans-serif;
 }
 
 .footer-margin {
-  margin: 0px 20px 0px 20px;
+  margin: 0px 30px 0px 30px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -27,20 +28,22 @@ footer {
 .footer-menu a {
   text-decoration: none;
   color: white;
+  font-family: "Cabin", sans-serif;
 }
 
 .footer-menu {
   display: flex;
   flex-direction: column;
-  margin-top: 20px;
+  margin: 20px 0px 10px 0px;
   justify-content: flex-start;
 }
 
 .footer-byline {
-  font-size: 10px;
+  font-size: 14px;
   margin: 20px 0px;
 }
 
 .menu-item {
   text-align: left;
+  margin-bottom: 5px;
 }

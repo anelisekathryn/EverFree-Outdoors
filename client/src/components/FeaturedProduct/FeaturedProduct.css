@@ -7,12 +7,15 @@
   color: #e76f51;
   text-align: left;
   padding-left: 6%;
+  padding-top: 20px;
+  padding-bottom: 10px;
 }
 
 /* PRODUCTS ============================ */
 
 .featured-products {
   display: flex;
+  padding-bottom: 80px;
 }
 
 .featured-products-small {

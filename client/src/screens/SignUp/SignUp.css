@@ -36,6 +36,7 @@
 }
 .signup-button {
   background-color: #e76f51;
+  border: none;
   border-radius: 10px;
   height: 5vh;
   width: 15vw;
@@ -46,6 +47,7 @@
 }
 .signup-home-button {
   background-color: #ffffff50;
+  border: none;
   width: 15vw;
   height: 5vh;
   border-radius: 10px;
