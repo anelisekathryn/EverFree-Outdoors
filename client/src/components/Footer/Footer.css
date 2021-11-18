@@ -4,6 +4,10 @@ footer {
   justify-content: space-between;
   background-color: #264653;
   color: white;
+  background-image: url('https://i.imgur.com/xL9R8iT.png');
+  background-size: 90% 80%;
+  background-repeat: no-repeat;
+  background-position: bottom;
 }
 
 .footer-menu a {

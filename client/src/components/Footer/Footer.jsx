@@ -19,7 +19,11 @@ const Footer = ({ user }) => {
       <h5>David Gurule</h5>
       <h5>Ej Soumahoro</h5>
       <h5>Lance Simmons</h5>
-    </div>
+      </div>
+
+      {/* <div>
+      <img src='https://i.imgur.com/xL9R8iT.png'/>
+      </div> */}
     </footer>
   )
 }

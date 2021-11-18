@@ -30,6 +30,7 @@ const Nav = ({ user }) => {
   return (
     <nav
       className={location.pathname === '/' ? 'nav-home' : 'nav'}>
+    
       <NavLink
         className='logo'
         to='/'>
@@ -41,6 +42,7 @@ const Nav = ({ user }) => {
         {user ? authenticatedOptions : unauthenticatedOptions}
         {user && <div className="link welcome">Welcome, {user.username}</div>}
       </div>
+      
     </nav>
   )
 }

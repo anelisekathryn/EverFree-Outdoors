@@ -1,14 +1,14 @@
+.nav-margin {
+  display: flex;
+  padding-top: 20px
+}
+
 .nav {
   background-color: #264653;
   display: flex;
   flex-direction: row;
   height: 50px;
-  padding: 20px 20px 0px 20px;
-}
-
-.nav-margin {
-  display: flex;
-  margin: 20px, 20px, 0px, 20px;
+  padding-left: 20px;
   justify-content: space-between;
 }
 
@@ -30,9 +30,9 @@
   position: absolute;
   display: flex;
   flex-direction: row;
-  width: 100vw;
+  width: 100%;
   height: 50px;
-  padding: 20px 20px 0px 20px;
+  padding-left: 20px ;
 }
 
 .nav-home .logo {
@@ -51,7 +51,7 @@
 .links {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 
 .nav .link-welcome {
@@ -63,10 +63,16 @@
 }
 
 .link {
+  display: flex;
+  align-items: center;
   margin: 0px 10px 0px 10px;
   /* background-color: F4A261; */
 }
 
 .link:hover {
   background-color: #F4A261;
+}
+
+.link-welcome:hover {
+  background-color: none;
 }
