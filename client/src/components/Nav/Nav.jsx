@@ -1,5 +1,6 @@
 import './Nav.css'
 import { NavLink, useLocation } from 'react-router-dom'
+import { NavHashLink } from 'react-router-hash-link'
 import { SignOut } from '../../components'
 import { useEffect } from 'react'
 
@@ -18,7 +19,7 @@ const alwaysOptions = (
   <>
     <NavLink className="link" to="/about">ABOUT</NavLink>
     <NavLink className="link" to="/products">PRODUCTS</NavLink>
-    <NavLink className="link" to="/about#meet-the-team">MEET THE TEAM</NavLink>
+    <NavHashLink className="link" to="/about#meet-the-team">MEET THE TEAM</NavHashLink>
   </>
 )
 
