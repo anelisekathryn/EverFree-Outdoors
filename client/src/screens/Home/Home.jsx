@@ -38,17 +38,20 @@ const Home = (props) => {
         <div className="shop-now">
           <img src="https://i.imgur.com/adQyRvl.jpg" alt="backpack"></img>
           <h4>Shop Now</h4>
-          <p>Take in the experience of the outdoors.  Browse through our catalog of hundreds of products and find what you need to get outside and get free.</p>
+          <p>Take in the experience of the outdoors. Browse through our catalog of hundreds of products and find what you need to get outside and get free.</p>
+          <Link to ="/products">shop now</Link>
         </div>
         <div className="join-us">
           <img src="https://i.imgur.com/wGBJEuG.jpg" alt="footprints"></img>
           <h4>Join Us</h4>
-          <p>Be a part of the adventure.  Join the community and get exclusive deals and gain access to  product reviews. Contribute to EverFree Outdoor’s member experience.</p>
+          <p>Be a part of the adventure. Join the community and get exclusive deals and gain access to  product reviews. Contribute to EverFree Outdoor’s member experience.</p>
+          <Link to ="/sign-up">let's go</Link>
         </div>
         <div className="learn-more">
           <img src="https://i.imgur.com/x1ImAkP.jpg" alt="light bulb"></img>
           <h4>Learn More</h4>
-          <p>We like to think we’re a pretty fun bunch! And we would love for you to join in on the fun. Learn more about our team and what we love to do.</p>
+          <p>We like to think we’re a pretty fun bunch! And we would love for you to join in on some of our fun. Learn more about our team and what we love to do.</p>
+          <Link to ="/about">meet daale</Link>
         </div>
       </div>
     </Layout>

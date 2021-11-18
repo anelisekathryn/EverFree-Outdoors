@@ -8,14 +8,16 @@
     /* width: 90vw; */
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-between;
     padding: 0 80px 0 80px;
 }
 
 .products-wrapper .product img {
-    width: 200px;
+    width: 150px;
     border: 1px solid #E4E5E7;
     transition: transform .2s; /* Animation */
+    margin-top: 40px;
+    padding: 20px;
 }
 
 .products-wrapper .product img:hover {
@@ -23,7 +25,7 @@
   }
 
 
-.products-wrapper a.addProduct {
+a.addProduct {
     background-color: #E76F51;
     color: #264653;
     text-decoration: none;

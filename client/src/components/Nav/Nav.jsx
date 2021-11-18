@@ -29,13 +29,20 @@ const Nav = ({ user }) => {
 
   return (
     <nav
-      className={location.pathname === '/' ? 'nav-home' : 'nav' }>
-      <NavLink className='logo' to='/'>EverFree Outdoors</NavLink>
+      className={location.pathname === '/' ? 'nav-home' : 'nav'}>
+    
+      <NavLink
+        className='logo'
+        to='/'>
+        <img src={location.pathname === '/' ? "https://i.imgur.com/u3u8JHb.png" : "https://i.imgur.com/iIWZzLV.png"} />
+      </NavLink>
+      
       <div className='links'>
         {alwaysOptions}
         {user ? authenticatedOptions : unauthenticatedOptions}
-        {user && <div className="link welcome">Welcome, {user.username}</div>}
+        {user && <div className="link-welcome">Welcome, {user.username}</div>}
       </div>
+
     </nav>
   )
 }
