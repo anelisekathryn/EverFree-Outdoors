@@ -49,20 +49,21 @@
   background-color: #f4a261;
   display: flex;
   justify-content: space-between;
-  column-gap: 120px;
+  column-gap: 100px;
+  height: 500px;
 }
 
 .join-text-block {
   padding-left: 30px;
-  flex: 1;
+  width: 60%;
 }
 
 .join-image-block {
-  width: 40%;
+  flex: 1;
 }
 
 .join-image-block img {
-  width: 100%;
+  height: 500px;
   border-left: 12px solid #efd595;
   margin-bottom: -3px;
 }
@@ -70,7 +71,7 @@
 .join-text-block h4 {
   font-family: "Playfair Display", sans-serif;
   font-weight: 700;
-  font-size: 50px;
+  font-size: 4.2vw;
   color: #264653;
   padding-left: 6%;
   margin-bottom: 20px;
