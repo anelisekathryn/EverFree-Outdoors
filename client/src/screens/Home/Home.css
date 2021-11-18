@@ -1,10 +1,43 @@
 /* HEADER ==================================== */
+.header {
+  display: block;
+}
+
+/* use flexbox instead? image absolute? use flex start on text */
 
 .header img {
   margin: auto;
-  display: block;
   height: auto;
   width: 100%;
+}
+
+.header-text {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: auto;
+  height: auto;
+  width: 100%;
+}
+
+.header-text h1 {
+  width: 100%;
+  font-family: "Playfair Display", sans-serif;
+  font-weight: 700;
+  font-size: 4.2vw;
+  color: #ffffff;
+}
+
+.header-text a {
+  text-decoration: none;
+  color: black;
+  background-color: #efd595;
+  padding: 12px;
+  border-radius: 5px;
+  font-family: "Playfair Display", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
 }
 
 /* JOIN US ==================================== */
@@ -14,39 +47,71 @@
   margin: auto;
   width: 100%;
   background-color: #f4a261;
+  display: flex;
+  justify-content: space-between;
+  column-gap: 120px;
 }
 
-.join-block h4 {
+.join-text-block {
+  padding-left: 30px;
+  flex: 1;
+}
+
+.join-image-block {
+  width: 40%;
+}
+
+.join-image-block img {
+  width: 98%;
+  border-left: 12px solid #efd595;
+  margin-bottom: -3px;
+}
+
+.join-text-block h4 {
   font-family: "Playfair Display", sans-serif;
   font-weight: 700;
-  font-size: 30px;
+  font-size: 50px;
   color: #264653;
   padding-left: 6%;
+  margin-bottom: 20px;
 }
 
-.join-block p {
+.join-text-block p {
   font-family: "Cabin", sans-serif;
+  color: white;
   font-weight: 200;
-  font-size: 16px;
+  font-size: 36px;
+  line-height: 6.5vh;
   padding-left: 6%;
+  margin-bottom: 15px;
 }
 
-.image-block img {
-  width: 20%;
+.join-text-block a {
+  text-decoration: none;
+  color: black;
+  background-color: #efd595;
+  padding: 10px 16px 10px 16px;
+  margin-bottom: 30px;
+  border-radius: 5px;
+  font-family: "Playfair Display", sans-serif;
+  font-weight: 800;
+  font-size: 24px;
+  float: right;
 }
 
-/* QUOTE ====================================== */
+/* QUOTE BLOCK ====================================== */
 
 .quote-block {
   text-align: center;
   margin: auto;
   width: 88%;
+  margin-bottom: 110px;
 }
 
 .quote-block h2 {
   font-family: "Playfair Display", sans-serif;
   font-weight: 700;
-  font-size: 90px;
+  font-size: 6.7vw;
   color: #2a9d8f;
   margin-bottom: 10px;
 }
@@ -54,6 +119,43 @@
 .quote-block p {
   font-family: "Cabin", sans-serif;
   font-weight: 200;
-  font-size: 35px;
+  font-size: 2.35vw;
   margin-top: 10px;
+}
+
+/* ACTION BLOCK ====================================== */
+
+.action-block {
+  width: 88%;
+  margin: auto;
+  display: flex;
+  column-gap: 60px;
+  margin-bottom: 90px;
+}
+
+.action-block h4 {
+  font-family: "Playfair Display", sans-serif;
+  font-weight: 700;
+  font-size: 3vw;
+  color: #264653;
+  margin-top: 8px;
+  margin-bottom: 16px;
+}
+
+.action-block p {
+  font-family: "Cabin", sans-serif;
+  font-weight: 200;
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.action-block a {
+  text-decoration: none;
+  color: #264653;
+  background-color: #f4a261;
+  padding: 8px 14px 8px 14px;
+  border-radius: 5px;
+  font-family: "Playfair Display", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
 }

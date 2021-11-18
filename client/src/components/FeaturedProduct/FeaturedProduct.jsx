@@ -42,6 +42,7 @@ const FeaturedProduct = () => {
       <div className="featured-title">
         <h3>Featured Products</h3>
       </div>
+
       <div className="featured-products">
         <div className="featured-products-large">
           {FEATURED1}
@@ -50,6 +51,7 @@ const FeaturedProduct = () => {
           {FEATURED2}
         </div>
       </div>
+      
     </div>
   )
 

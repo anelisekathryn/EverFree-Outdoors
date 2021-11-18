@@ -16,6 +16,7 @@ import SignOut from "./screens/SignOut/SignOut"
 
 
 function App() {
+
   const [user, setUser] = useState(null)
   
   useEffect(() => {
@@ -55,17 +56,19 @@ function App() {
         />
         <Route
           path="/products/:id/edit"
-          element={<ProductEdit />}
+          // element={<ProductEdit user={user}/>}
           // write in ternary statement to check if user is signed in
+          element={user ? <ProductEdit user={user}/> : <Navigate to='/sign-in'/>}
+
         />
         <Route
           path="/add-product"
-          element={<ProductCreate />}
-          // write in ternary statement to check if user is signed in
+          // element={<ProductCreate user={user} />}
+          element={user ? <ProductCreate user={user}/> : <Navigate to='/sign-in'/>}
         />
         <Route
           path="/about"
-          element={<AboutUs />}
+          element={<AboutUs user={user}/>}
         />
       </Routes>
     </div>
