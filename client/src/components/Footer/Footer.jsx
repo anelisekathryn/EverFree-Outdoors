@@ -1,5 +1,7 @@
 import './Footer.css'
 import { Link } from 'react-router-dom'
+import { HashLink } from 'react-router-hash-link'
+
 
 const Footer = ({ user }) => {
   return (
@@ -10,7 +12,7 @@ const Footer = ({ user }) => {
       <div className='menu-item'><Link to='/'>Home</Link></div>
       <div className='menu-item'><Link to='/products'>Shop</Link></div>
       <div className='menu-item'><Link to='/about'>About</Link></div>
-      <div className='menu-item'><Link to='/about#meet-the-team'>Meet the Team</Link></div>
+      <div className='menu-item'><HashLink to='/about#meet-the-team'>Meet the Team</HashLink></div>
       <div className='menu-item'><Link to='/add-product'>Add a Product</Link></div>
     </div>
     

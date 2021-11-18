@@ -27,3 +27,7 @@
   font-family: "Playfair Display", Arial, Helvetica, sans-serif;
   /* margin-right: 110px; */
 }
+.button-container {
+  display: flex;
+  flex-direction: column;
+}

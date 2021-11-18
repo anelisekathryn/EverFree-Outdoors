@@ -38,7 +38,6 @@
   font-family: "Playfair Display", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  /* font-size: 1.2vw; */
 }
 
 /* JOIN US ==================================== */
@@ -48,25 +47,52 @@
   margin: auto;
   width: 100%;
   background-color: #f4a261;
+  display: flex;
+  justify-content: space-between;
+  column-gap: 100px;
 }
 
-.join-block h4 {
+.join-text-block {
+  padding-left: 30px;
+  flex: 1;
+}
+
+.join-image-block {
+  width: 35%;
+}
+
+.join-image-block img {
+  width: 80%;
+  border-left: 12px solid #efd595;
+}
+
+.join-text-block h4 {
   font-family: "Playfair Display", sans-serif;
   font-weight: 700;
-  font-size: 30px;
+  font-size: 32px;
   color: #264653;
   padding-left: 6%;
 }
 
-.join-block p {
+.join-text-block p {
   font-family: "Cabin", sans-serif;
+  color: white;
   font-weight: 200;
-  font-size: 16px;
+  font-size: 28px;
   padding-left: 6%;
+  line-height: 5.2vh;
 }
 
-.image-block img {
-  width: 20%;
+.join-text-block a {
+  text-decoration: none;
+  color: black;
+  background-color: #efd595;
+  padding: 8px 14px 8px 14px;
+  border-radius: 5px;
+  font-family: "Playfair Display", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  float: right;
 }
 
 /* QUOTE BLOCK ====================================== */
@@ -116,4 +142,16 @@
   font-family: "Cabin", sans-serif;
   font-weight: 200;
   font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.action-block a {
+  text-decoration: none;
+  color: #264653;
+  background-color: #f4a261;
+  padding: 8px 14px 8px 14px;
+  border-radius: 5px;
+  font-family: "Playfair Display", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
 }
