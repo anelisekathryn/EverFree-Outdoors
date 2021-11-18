@@ -3,6 +3,7 @@
   flex-wrap: wrap;
   align-items: center;
   padding: 20px;
+  font-family: "Playfair Display", Arial, Helvetica, sans-serif;
 }
 .form-wrapper {
   display: flex;
@@ -26,7 +27,9 @@
   border-radius: 5px;
   margin: 5px;
   font-size: 20px;
+  font-family: "cabin", Arial, Helvetica, sans-serif;
 }
 a.edit-button {
   text-decoration: none;
+  color: #264653;
 }

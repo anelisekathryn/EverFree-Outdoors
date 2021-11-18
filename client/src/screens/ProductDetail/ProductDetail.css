@@ -16,13 +16,14 @@
   align-items: center;
   justify-content: space-evenly;
   line-height: 40px;
-
+  font-family: "Playfair Display", Arial, Helvetica, sans-serif;
   width: 500px;
 }
 .price {
-  margin-right: 400px;
+  font-family: "cabin", Arial, Helvetica, sans-serif;
 }
 .name {
   color: #e76f51;
+  font-family: "Playfair Display", Arial, Helvetica, sans-serif;
   /* margin-right: 110px; */
 }
