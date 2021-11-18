@@ -49,7 +49,7 @@
   background-color: #f4a261;
   display: flex;
   justify-content: space-between;
-  column-gap: 100px;
+  column-gap: 120px;
 }
 
 .join-text-block {
@@ -58,40 +58,44 @@
 }
 
 .join-image-block {
-  width: 35%;
+  width: 40%;
 }
 
 .join-image-block img {
-  width: 80%;
+  width: 98%;
   border-left: 12px solid #efd595;
+  margin-bottom: -3px;
 }
 
 .join-text-block h4 {
   font-family: "Playfair Display", sans-serif;
   font-weight: 700;
-  font-size: 32px;
+  font-size: 50px;
   color: #264653;
   padding-left: 6%;
+  margin-bottom: 20px;
 }
 
 .join-text-block p {
   font-family: "Cabin", sans-serif;
   color: white;
   font-weight: 200;
-  font-size: 28px;
+  font-size: 36px;
+  line-height: 6.5vh;
   padding-left: 6%;
-  line-height: 5.2vh;
+  margin-bottom: 15px;
 }
 
 .join-text-block a {
   text-decoration: none;
   color: black;
   background-color: #efd595;
-  padding: 8px 14px 8px 14px;
+  padding: 10px 16px 10px 16px;
+  margin-bottom: 30px;
   border-radius: 5px;
   font-family: "Playfair Display", sans-serif;
-  font-weight: 700;
-  font-size: 16px;
+  font-weight: 800;
+  font-size: 24px;
   float: right;
 }
 
