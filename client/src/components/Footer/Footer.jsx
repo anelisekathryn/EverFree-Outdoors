@@ -7,11 +7,11 @@ const Footer = ({ user }) => {
       
       <div className='footer-margin'>
     <div className='footer-menu'>
-      <div><Link to='/'>Home</Link></div>
-      <div><Link to='/products'>Shop</Link></div>
-      <div><Link to='/about'>About</Link></div>
-      <div><Link to='/about#meet-the-team'>Meet the Team</Link></div>
-        <div><Link to='/add-product'>Add a Product</Link></div>
+      <div className='menu-item'><Link to='/'>Home</Link></div>
+      <div className='menu-item'><Link to='/products'>Shop</Link></div>
+      <div className='menu-item'><Link to='/about'>About</Link></div>
+      <div className='menu-item'><Link to='/about#meet-the-team'>Meet the Team</Link></div>
+      <div className='menu-item'><Link to='/add-product'>Add a Product</Link></div>
     </div>
     
     <div className='footer-byline'>

@@ -1,7 +1,4 @@
 footer {
-  /* display: flex;
-  flex-direction: row;
-  justify-content: space-between;  */
   background-color: #264653;
   color: white;
   background-image: url('https://i.imgur.com/xL9R8iT.png');
@@ -11,18 +8,20 @@ footer {
 }
 
 .footer-margin {
-  margin: 20px 20px 0px 20px;
+  margin: 0px 20px 0px 20px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
 
 .footer-byline h4 {
-  margin: 0 5px 5px 0;
+  margin: 0 5px 8px 5px;
+  text-align: right;
 }
 
 .footer-byline h5 {
   margin: 0 5px 5px 0;
+  text-align: right;
 }
 
 .footer-menu a {
@@ -32,10 +31,16 @@ footer {
 
 .footer-menu {
   display: flex;
-  flex-direction: column
+  flex-direction: column;
+  margin-top: 20px;
+  justify-content: flex-start;
 }
 
 .footer-byline {
   font-size: 10px;
   margin: 20px 0px;
+}
+
+.menu-item {
+  text-align: left;
 }
