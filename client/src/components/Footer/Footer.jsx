@@ -3,7 +3,9 @@ import { Link } from 'react-router-dom'
 
 const Footer = ({ user }) => {
   return (
-  <footer>
+    <footer>
+      
+      <div className='footer-margin'>
     <div className='footer-menu'>
       <div><Link to='/'>Home</Link></div>
       <div><Link to='/products'>Shop</Link></div>
@@ -20,7 +22,7 @@ const Footer = ({ user }) => {
       <h5>Ej Soumahoro</h5>
       <h5>Lance Simmons</h5>
       </div>
-
+      </div>
       {/* <div>
       <img src='https://i.imgur.com/xL9R8iT.png'/>
       </div> */}
