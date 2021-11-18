@@ -22,6 +22,18 @@
   font-family: "Cabin", sans-serif;
   font-weight: 200;
   font-size: 22px;
+  margin-bottom: 50px;
+}
+
+.about a {
+  text-decoration: none;
+  color: #264653;
+  background-color: #e76f51;
+  padding: 8px 14px 8px 14px;
+  border-radius: 5px;
+  font-family: "Playfair Display", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
 }
 
 /* MEET THE TEAM ================================== */
@@ -29,7 +41,7 @@
 .meet-title {
   width: 100%;
   background-color: rgba(239, 213, 149, 0.5);
-  margin-top: 80px;
+  margin-top: 90px;
 }
 
 .meet-title h2 {
