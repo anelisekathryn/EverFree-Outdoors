@@ -18,3 +18,12 @@
     resize: none;
     outline: none;
     }
+
+    @media only screen and (max-width: 600px) {
+
+        .search-form input.search-input {
+          
+            width: 150px;
+          
+            }
+      }
