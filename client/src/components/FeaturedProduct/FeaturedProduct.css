@@ -1,0 +1,28 @@
+/* TITLE ============================ */
+
+.featured-title h3 {
+  font-family: "Playfair Display", sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  color: #e76f51;
+  text-align: left;
+  padding-left: 6%;
+  padding-top: 20px;
+  padding-bottom: 0px;
+}
+
+/* PRODUCTS ============================ */
+
+.featured-products {
+  width: 88%;
+  margin: 0 auto;
+  display: flex;
+  padding-bottom: 80px;
+  justify-content: space-between;
+  /* column-gap: 20px; */
+}
+
+.featured-products img {
+  border: 1px solid black;
+  width: 20vw;
+}

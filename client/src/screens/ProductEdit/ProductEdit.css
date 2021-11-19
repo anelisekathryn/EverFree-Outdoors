@@ -1,0 +1,32 @@
+.editForm {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 20px;
+}
+.form-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 40px;
+}
+.container-div {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+.inputs {
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+}
+.save-button {
+  background-color: #e76f51;
+  color: #264653;
+  border-radius: 5px;
+  margin: 5px;
+  font-size: 20px;
+}
+a.edit-button {
+  text-decoration: none;
+}

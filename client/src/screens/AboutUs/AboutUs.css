@@ -1,0 +1,164 @@
+.about-page {
+  text-align: left;
+  /* width: 88%;
+  margin: auto; */
+}
+
+/* ABOUT US ========================================= */
+
+.about {
+  width: 88%;
+  margin: auto;
+}
+
+.about h2 {
+  font-family: "Playfair Display", sans-serif;
+  font-weight: 700;
+  font-size: 46px;
+  color: #264653;
+}
+
+.about p {
+  font-family: "Cabin", sans-serif;
+  font-weight: 200;
+  font-size: 22px;
+  margin-bottom: 50px;
+}
+
+.about a {
+  text-decoration: none;
+  color: #264653;
+  background-color: #e76f51;
+  padding: 8px 14px 8px 14px;
+  border-radius: 5px;
+  font-family: "Playfair Display", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+/* MEET THE TEAM ================================== */
+
+.meet-title {
+  width: 100%;
+  background-color: rgba(239, 213, 149, 0.5);
+  margin-top: 90px;
+}
+
+.meet-title h2 {
+  width: 88%;
+  margin: auto;
+  font-family: "Playfair Display", sans-serif;
+  font-weight: 700;
+  font-size: 46px;
+  color: #264653;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.orange-bar {
+  height: 10px;
+  background-color: #f4a261;
+}
+
+.profiles {
+  width: 88%;
+  margin: auto;
+  margin-bottom: 100px;
+}
+
+/* LETTER+IMAGE STYLING =============================== */
+
+.letter-image-block {
+  display: block;
+}
+
+.letter-image-block h1 {
+  font-family: "Playfair Display", sans-serif;
+  font-weight: 800;
+  font-size: 120px;
+  display: block;
+  position: absolute;
+}
+
+.letter-image-block img {
+  padding-left: 56px;
+  padding-top: 75px;
+}
+
+/* PROFILE FLEXBOXES ===================================== */
+
+.profile-text {
+  padding-top: 75px;
+}
+
+.profile-text h4 {
+  font-family: "Cabin", sans-serif;
+  font-weight: 600;
+  font-size: 26px;
+  margin-top: 8px;
+  margin-bottom: 6px;
+}
+
+.profile-text p {
+  font-family: "Cabin", sans-serif;
+  font-weight: 300;
+  font-size: 1.6vw;
+  margin-top: 8px;
+  margin-bottom: 9px;
+}
+
+.daale-links {
+  margin-left: -7px;
+}
+
+.daale-links img {
+  width: 38px;
+  padding-right: 6px;
+}
+
+.david {
+  display: flex;
+  column-gap: 20px;
+}
+
+.anelise {
+  display: flex;
+  column-gap: 20px;
+}
+
+.andrew {
+  display: flex;
+  column-gap: 20px;
+}
+
+.lance {
+  display: flex;
+  column-gap: 20px;
+}
+
+.ej {
+  display: flex;
+  column-gap: 20px;
+}
+
+/* LETTER COLORS ===================================== */
+
+.david h1 {
+  color: #264653;
+}
+
+.anelise h1 {
+  color: #2a9d8f;
+}
+
+.andrew h1 {
+  color: #efd595;
+}
+
+.lance h1 {
+  color: #f4a261;
+}
+
+.ej h1 {
+  color: #e76f51;
+}

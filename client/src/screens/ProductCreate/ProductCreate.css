@@ -1,0 +1,63 @@
+#addproduct-h2 {
+  font-family: 'Playfair Display', serif;
+  color: #EFD595;
+}
+.create-form-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url("https://i.imgur.com/sADBTDr.jpg");
+  background-size: cover;
+  background-repeat: no-repeat; 
+}
+.create-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #264653;
+  width: 40vw;
+  border-radius: 20px;
+  margin-top: 10vh;
+}
+#text-area-description {
+  font-family: 'Cabin', sans-serif;
+  width: 25vw;
+  height: 10vh;
+  margin-bottom: 3vh;
+  border-radius: 10px;
+  padding-left: 20px;
+}
+.addproduct-input {
+  font-family: 'Cabin', sans-serif;
+  width: 25vw;
+  height: 4vh;
+  margin-bottom: 3vh;
+  border-radius: 10px;
+  padding-left: 20px;
+}
+.add-submit-button {
+  background-color: #E76F51;
+  border-radius: 10px;
+  height: 5vh;
+  width: 15vw;
+  font-family: 'Playfair Display', serif;
+  margin-bottom: 4vh; 
+  margin-top: 2vh; 
+}
+
+@media only screen and (max-width: 600px) {
+  .add-submit-button {
+    font-size: 70%;
+    width: 50vw;
+  }
+  .create-form {
+    width: 90%;
+  }
+  .addproduct-input {
+    width: 70vw;
+  }
+  #text-area-description {
+    width: 70vw;
+  }
+}

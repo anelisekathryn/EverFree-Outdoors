@@ -1,0 +1,100 @@
+nav {
+  font-family: "Cabin", sans-serif;
+}
+
+.nav-margin {
+  display: flex;
+  padding-top: 20px
+}
+
+.nav {
+  background-color: #264653;
+  display: flex;
+  flex-direction: row;
+  height: 50px;
+  padding-left: 20px;
+  padding-top: 20px;
+  /* justify-content: space-between; */
+}
+
+.nav img {
+  max-height: 100%;
+}
+
+.nav-home img {
+  max-height: 100%;
+}
+
+.nav a {
+  color: white;
+  text-decoration: none;
+}
+
+.nav-home {
+  background-color: transparent;
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  width: 99%;
+  height: 50px;
+  padding-left: 20px;
+  padding-top: 20px;
+  /* justify-content: space-between; */
+}
+
+.nav-home .logo {
+  padding-right: 10px;
+}
+
+.nav .logo {
+  padding-right: 10px;
+}
+
+.nav-home a {
+  text-decoration: none;
+  color: #264653;
+}
+
+.nav-home:hover {
+  background-color:rgba(255,255,255,0.4)
+}
+
+.links {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+  justify-content: space-evenly;
+}
+
+.nav-home .links {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+  justify-content: space-evenly;
+}
+
+.nav .link-welcome {
+  color: white;
+  margin: 10px 10px 0px 10px;
+  font-size: 12px;
+}
+
+.nav-home .link-welcome {
+  color: #264653;
+  margin: 10px 10px 0px 10px;
+  font-size: 12px;
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  padding: 0px 10px 0px 10px;
+}
+
+.link:hover {
+  background-color: #F4A261;
+}
+
+.link-welcome:hover {
+  background-color: none;
+}

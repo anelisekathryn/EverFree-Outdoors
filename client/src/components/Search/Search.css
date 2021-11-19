@@ -1,0 +1,33 @@
+.search-wrapper {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 80px;
+  margin-top: 120px;
+}
+
+.search-form input.search-input {
+  background-color: #efd595;
+  color: #2a9d8f;
+  border-radius: 3px;
+  padding: 10px 10px 10px 10px;
+  width: 300px;
+  border: none;
+  resize: none;
+  outline: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .search-form input.search-input {
+    
+    width: auto;
+
+   
+  }
+
+  .search-wrapper {
+    margin-right: 0;
+    margin-top: 120px;
+    display: flex;
+    justify-content: center;
+  }
+}
