@@ -132,3 +132,6 @@ https://www.figma.com/file/cMLvn51ilzBYvskQ4NLJSR/EverFree-Outdoors?node-id=0%3A
 | Nov 19    | CSS Styling                                                                         | Incomplete |
 | Nov 20–21 | Final styling + Code Review                                                         | Incomplete |
 | Nov 22    | Project presentation                                                                | Incomplete |
+
+
+.
