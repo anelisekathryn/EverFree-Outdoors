@@ -47,3 +47,9 @@ footer {
   text-align: left;
   margin-bottom: 5px;
 }
+
+@media (max-width: 500px) {
+  footer {
+    background-size: 70% 
+  }
+}
