@@ -4,7 +4,7 @@
 
 **Heroku:** https://everfree-outdoors.herokuapp.com/api/products
 
-**Netlify:** https://61955114aaac4e5be0c9813b--everfree-outdoors.netlify.app/
+**Netlify:** https://everfree-outdoors.netlify.app/
 
 ## Overview
 
