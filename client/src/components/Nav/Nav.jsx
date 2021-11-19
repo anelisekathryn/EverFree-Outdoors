@@ -4,6 +4,7 @@ import { NavHashLink, HashLink } from 'react-router-hash-link'
 import { useEffect } from 'react'
 import { pushRotate as Menu }from 'react-burger-menu'
 
+/*-------Regular Nav Options------*/
 const authenticatedOptions = (
   <>
       <NavLink className="link" to="/sign-out">SIGN OUT</NavLink>
@@ -24,7 +25,6 @@ const alwaysOptions = (
 )
 
 /*-------Menu Options------*/
-
 const authenticatedOptionsMenu = (
   <>
       <Link className="link" to="/sign-out">SIGN OUT</Link>

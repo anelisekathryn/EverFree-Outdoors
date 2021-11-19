@@ -25,9 +25,7 @@ const Footer = () => {
       <h5>Lance Simmons</h5>
       </div>
       </div>
-      {/* <div>
-      <img src='https://i.imgur.com/xL9R8iT.png'/>
-      </div> */}
+
     </footer>
   )
 }
