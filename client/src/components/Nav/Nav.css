@@ -14,7 +14,6 @@ nav {
   height: 50px;
   padding-left: 20px;
   padding-top: 20px;
-  /* justify-content: space-between; */
 }
 
 .nav img {
@@ -39,7 +38,6 @@ nav {
   height: 50px;
   padding-left: 20px;
   padding-top: 20px;
-  /* justify-content: space-between; */
 }
 
 .nav-home .logo {
@@ -98,3 +96,91 @@ nav {
 .link-welcome:hover {
   background-color: none;
 }
+
+
+.bm-burger-button {
+  position: fixed;
+  width: 22px;
+  height: 20px;
+  right: 10px;
+  top: 10px;
+}
+
+.bm-burger-bars {
+  background: #F4A261;
+}
+
+.bm-cross-button {
+  height: 24px;
+  width: 24px;
+  left: 165px;
+}
+
+.bm-cross {
+  background: white;
+}
+
+.bm-menu-wrap {
+  position: fixed;
+  height: 100%;
+}
+
+.bm-menu {
+  background: #264653;
+  padding: 2em 1em 0;
+  font-size: 1em;
+  width: 200px;
+  font-weight: 500;
+}
+
+.bm-menu a {
+  text-decoration: none;
+  color: white
+}
+
+.bm-menu .link-welcome {
+  color: white
+}
+
+@media (min-width: 870px) {
+  .mobile-nav {
+    display: none;
+  }
+
+  .nav-home .mobile-nav{
+    display:  none;
+  }
+}
+
+@media (max-width: 870px) {
+  .nav .links {
+    display: none;
+  }
+  .nav-home .links {
+    display: none;
+  }
+}
+
+@media (max-width: 500px) {
+  .nav {
+    height: 30px;
+  }
+  
+  .nav-home {
+    height: 30px;
+  }
+
+  .nav {
+    display: flex;
+    padding-top: 10px;
+    padding-left: 10px
+  }
+
+  .nav-home {
+    display: flex;
+    padding-top: 10px;
+    padding-left: 10px
+  }
+}
+
+

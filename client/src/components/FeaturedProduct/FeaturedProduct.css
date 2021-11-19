@@ -7,35 +7,43 @@
   color: #e76f51;
   text-align: left;
   padding-left: 6%;
-  padding-top: 20px;
-  padding-bottom: 10px;
+  padding-top: 30px;
+  padding-bottom: 0px;
 }
 
 /* PRODUCTS ============================ */
 
-.featured-products {
-  display: flex;
-  padding-bottom: 80px;
+@media (min-width: 601px) {
+  .featured-products {
+    width: 88%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: no-wrap;
+    padding-bottom: 80px;
+    justify-content: space-between;
+  }
+  .featured-products img {
+    border: 1px solid black;
+    width: 90%;
+  }
 }
 
-.featured-products-small {
-  width: 50%;
-  display: flex;
-  flex-wrap: wrap;
-  align-content: space-between;
-}
+@media (max-width: 600px) {
+  .featured-products {
+    width: 88%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding-bottom: 80px;
+    justify-content: space-evenly;
+  }
+  .featured-products img {
+    border: 1px solid black;
+    width: 100%;
+  }
 
-.featured-products-large {
-  flex: 1;
-}
-
-.featured-products-large img {
-  padding: 10px;
-  border: 1px solid black;
-  width: 60%;
-}
-
-.featured-products-small img {
-  border: 1px solid black;
-  width: 60%;
+  .featured-products a.product {
+    width: 100px;
+  }
 }

@@ -42,61 +42,114 @@
 
 /* JOIN US ==================================== */
 
-.join-block {
-  text-align: left;
-  margin: auto;
-  width: 100%;
-  background-color: #f4a261;
-  display: flex;
-  justify-content: space-between;
-  column-gap: 120px;
-}
-
-.join-text-block {
-  padding-left: 30px;
-  flex: 1;
-}
-
-.join-image-block {
-  width: 40%;
-}
-
-.join-image-block img {
-  width: 98%;
-  border-left: 12px solid #efd595;
-  margin-bottom: -3px;
-}
-
 .join-text-block h4 {
   font-family: "Playfair Display", sans-serif;
   font-weight: 700;
-  font-size: 50px;
+  font-size: 40px;
   color: #264653;
-  padding-left: 6%;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
+}
+
+.color-outdoors {
+  color: #2a9d8f;
 }
 
 .join-text-block p {
   font-family: "Cabin", sans-serif;
   color: white;
   font-weight: 200;
-  font-size: 36px;
-  line-height: 6.5vh;
-  padding-left: 6%;
-  margin-bottom: 15px;
+  font-size: 22px;
+  margin: auto;
 }
 
-.join-text-block a {
-  text-decoration: none;
-  color: black;
-  background-color: #efd595;
-  padding: 10px 16px 10px 16px;
-  margin-bottom: 30px;
-  border-radius: 5px;
-  font-family: "Playfair Display", sans-serif;
-  font-weight: 800;
-  font-size: 24px;
-  float: right;
+.join-block {
+  margin: auto;
+  margin-top: 14px;
+  width: 100%;
+  background-color: #f4a261;
+}
+
+@media (max-width: 889px) {
+  .join-text-block h4 {
+    padding-top: 20px;
+  }
+  .join-text-block p {
+    width: 88%;
+    margin: auto;
+    padding-bottom: 16px;
+  }
+  .join-image-block img {
+    width: 100%;
+    display: block;
+    margin: auto;
+    border-top: solid #efd595 12px;
+  }
+  .join-text-block a {
+    position: absolute;
+    text-decoration: none;
+    color: #264653;
+    background-color: rgba(255, 255, 255, 0.75);
+    padding: 10px 16px 10px 16px;
+    margin-top: 100px;
+    margin-left: -45px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    font-family: "Playfair Display", sans-serif;
+    font-weight: 800;
+    font-size: 22px;
+  }
+}
+
+@media (min-width: 890px) {
+  .join-block {
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    column-gap: 100px;
+    height: 500px;
+  }
+
+  .join-text-block {
+    padding-left: 30px;
+    width: 60%;
+  }
+
+  .join-image-block {
+    flex: 1;
+  }
+  .join-image-block img {
+    height: 500px;
+    border-left: 12px solid #efd595;
+    margin-bottom: -3px;
+  }
+
+  .join-text-block h4 {
+    font-size: 4.2vw;
+    padding-left: 6%;
+    margin-bottom: 20px;
+  }
+
+  .join-text-block p {
+    font-family: "Cabin", sans-serif;
+    color: white;
+    font-weight: 200;
+    font-size: 2.8vw;
+    padding-left: 6%;
+    margin-bottom: 15px;
+  }
+
+  .join-text-block a {
+    text-decoration: none;
+    color: #264653;
+    background-color: #efd595;
+    padding: 10px 16px 10px 16px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    font-family: "Playfair Display", sans-serif;
+    font-weight: 800;
+    font-size: 24px;
+    float: right;
+  }
 }
 
 /* QUOTE BLOCK ====================================== */
@@ -105,7 +158,8 @@
   text-align: center;
   margin: auto;
   width: 88%;
-  margin-bottom: 110px;
+  margin-top: 100px;
+  margin-bottom: 50px;
 }
 
 .quote-block h2 {
@@ -116,6 +170,10 @@
   margin-bottom: 10px;
 }
 
+.color-wander {
+  color: #e76f51;
+}
+
 .quote-block p {
   font-family: "Cabin", sans-serif;
   font-weight: 200;
@@ -123,23 +181,48 @@
   margin-top: 10px;
 }
 
+@media (max-width: 889px) {
+  .quote-block p {
+    font-size: 18px;
+  }
+  .quote-block {
+    margin-top: 60px;
+    margin-bottom: 20px;
+  }
+}
+
 /* ACTION BLOCK ====================================== */
 
 .action-block {
   width: 88%;
   margin: auto;
-  display: flex;
-  column-gap: 60px;
-  margin-bottom: 90px;
+  margin-bottom: 110px;
+}
+
+.action-block img {
+  margin-top: 50px;
 }
 
 .action-block h4 {
   font-family: "Playfair Display", sans-serif;
   font-weight: 700;
-  font-size: 3vw;
+  font-size: 30px;
   color: #264653;
   margin-top: 8px;
   margin-bottom: 16px;
+}
+
+@media (min-width: 715px) {
+  .action-block {
+    width: 88%;
+    margin: auto;
+    display: flex;
+    column-gap: 60px;
+    margin-bottom: 130px;
+  }
+  .action-block h4 {
+    font-size: 3vw;
+  }
 }
 
 .action-block p {

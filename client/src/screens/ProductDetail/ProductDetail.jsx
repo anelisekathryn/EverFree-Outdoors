@@ -1,3 +1,4 @@
+// ProductDetail.jsx
 import { useState, useEffect } from "react";
 import { getProduct, deleteProduct } from "../../services/products";
 import { useParams, Link } from "react-router-dom";
@@ -15,11 +16,9 @@ const ProductDetail = (props) => {
       setProduct(product);
       setSubstring(product.description);
     };
-
     fetchProduct();
     console.log(description);
-  }, [id, showMore]);
-
+  }, [id]);
   return (
     <Layout user={props.user}>
       <div>
@@ -29,27 +28,27 @@ const ProductDetail = (props) => {
             <h2 className="name">{product.name}</h2>
             <h3 className="price">{`$ ${product.price}`}</h3>
             <div> {showMore ? description : substring.substring(0, 250)} </div>
-
-            {/* {showMore ? <p className='description'>{product.description}</p> : null} */}
-            {/* if desciption has less than 250 characer don't display show more*/}
-
-            <button
-               className='save-button'
-              onClick={() => setShowMore(!showMore)}
-            >
-              {showMore ? "Read Less " : "Read More"}
-            </button>
+            {description && description.length <= 250 ? null : (
+              <button
+                className="save-button"
+                
+                onClick={() => setShowMore(!showMore)}
+              >
+                {showMore ? "Read Less " : "Read More"}
+              </button>
+            )}
           </div>
         </div>
       </div>
       <div className="button-container">
-        <button className='save-button'>
+        <button className="save-button" id='edit-delete'>
           <Link className="edit-button" to={`/products/${product._id}/edit`}>
             Edit
           </Link>
         </button>
         <button
-           className='save-button'
+          className="save-button"
+          id='edit-delete'
           onClick={() => deleteProduct(product._id)}
         >
           Delete
@@ -58,5 +57,4 @@ const ProductDetail = (props) => {
     </Layout>
   );
 };
-
 export default ProductDetail;
