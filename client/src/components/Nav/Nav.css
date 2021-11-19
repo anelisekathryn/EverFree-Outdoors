@@ -107,8 +107,52 @@ nav {
   }
 }
 
+.bm-burger-button {
+  position: fixed;
+  width: 22px;
+  height: 20px;
+  right: 10px;
+  top: 10px;
+}
+
+.bm-burger-bars {
+  background: white;
+}
+
+.bm-cross-button {
+  height: 24px;
+  width: 24px;
+  left: 165px;
+}
+
+.bm-cross {
+  background: white;
+}
+
+.bm-menu-wrap {
+  position: fixed;
+  height: 100%;
+}
+
+.bm-menu {
+  background: #264653;
+  padding: 2em 1em 0;
+  font-size: 1em;
+  width: 200px;
+  font-weight: 500;
+}
+
+.bm-menu a {
+  text-decoration: none;
+  color: white
+}
+
+.bm-menu .link-welcome {
+  color: white
+}
+
 @media (max-width: 870px) {
-  .nav.links {
+  .nav .links {
     display: none;
   }
   .nav-home .links {
