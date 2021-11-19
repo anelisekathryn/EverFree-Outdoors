@@ -76,7 +76,7 @@ const AboutUs = (props) => {
               </div>
               <div className="profile-text">
                 <h4>Lance Simmons</h4>
-                <p>As a Software Engineer with a background in a diverse art practice and technical support I seek to bring my passion for sharing in creativity. As a meticulous free-thinker, his penchant for finding inspiring new solutions has motivated him to achieve positive change for himself and his community.</p>
+                <p>As a Software Engineer with a background in diverse art practice and technical support, Lance brings a creative and unique approach to software development that is unmatched. As a meticulous free-thinker, his penchant for finding inspiring new solutions has motivated him to achieve positive change for himself and his community.</p>
                 <div className="daale-links">
                   <a href="https://www.linkedin.com/in/lance-simmons/" target="_blank" rel="noreferrer" ><img src="https://i.imgur.com/GLGB8SJ.png" alt="linkedin icon"></img></a>
                   <a href="https://github.com/lancehsimmons" target="_blank" rel="noreferrer" ><img src="https://i.imgur.com/zljymLZ.png" alt="github icon"></img></a>
