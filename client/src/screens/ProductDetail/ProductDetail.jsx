@@ -31,6 +31,7 @@ const ProductDetail = (props) => {
             {description && description.length <= 250 ? null : (
               <button
                 className="save-button"
+                
                 onClick={() => setShowMore(!showMore)}
               >
                 {showMore ? "Read Less " : "Read More"}
@@ -40,13 +41,14 @@ const ProductDetail = (props) => {
         </div>
       </div>
       <div className="button-container">
-        <button className="save-button">
+        <button className="save-button" id='edit-delete'>
           <Link className="edit-button" to={`/products/${product._id}/edit`}>
             Edit
           </Link>
         </button>
         <button
           className="save-button"
+          id='edit-delete'
           onClick={() => deleteProduct(product._id)}
         >
           Delete

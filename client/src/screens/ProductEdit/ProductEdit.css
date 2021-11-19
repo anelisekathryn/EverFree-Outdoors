@@ -4,6 +4,7 @@
   align-items: center;
   padding: 20px;
   font-family: "Playfair Display", Arial, Helvetica, sans-serif;
+  justify-content: center;
 }
 .form-wrapper {
   display: flex;
@@ -49,4 +50,6 @@
 a.edit-button {
   text-decoration: none;
   color: #264653;
+}
+@media (max-width: 1006px) {
 }
