@@ -14,14 +14,12 @@
   border: none;
   resize: none;
   outline: none;
+  font-family: "Cabin", sans-serif;
 }
 
 @media only screen and (max-width: 600px) {
   .search-form input.search-input {
-    
-    width: auto;
-
-   
+    width: 170px;
   }
 
   .search-wrapper {

@@ -6,9 +6,19 @@
 }
 .wrapper {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: row;
+
   margin: 50px;
-  justify-content: space-evenly;
+  /* justify-content: space-evenly; */
+}
+.price-wrapper {
+  display: flex;
+  flex-direction: column;
+  margin: 15px;
+}
+#edit-delete {
+  background-color: #e76f51;
+  width: 12vw;
 }
 .description {
   display: flex;
@@ -17,7 +27,6 @@
   justify-content: space-evenly;
   line-height: 40px;
   font-family: "Playfair Display", Arial, Helvetica, sans-serif;
-  width: 500px;
 }
 .price {
   font-family: "cabin", Arial, Helvetica, sans-serif;
@@ -30,4 +39,32 @@
 .button-container {
   display: flex;
   flex-direction: column;
+  align-content: flex-end;
+  flex-wrap: wrap;
+  margin: 25px;
+}
+
+@media (max-width: 1006px) {
+  .wrapper {
+    width: auto;
+  }
+  .url {
+    height: 350px;
+  }
+}
+@media (max-width: 850px) {
+  .price-wrapper {
+  }
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  .button-container {
+    display: flex;
+    align-content: center;
+  }
+  #edit-delete {
+    background-color: #e76f51;
+    width: 50vw;
+  }
 }

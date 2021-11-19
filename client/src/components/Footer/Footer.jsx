@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import { HashLink } from 'react-router-hash-link'
 
 
-const Footer = ({ user }) => {
+const Footer = () => {
   return (
     <footer>
       
@@ -21,13 +21,11 @@ const Footer = ({ user }) => {
       <h5>Anelise Bergin</h5>
       <h5>Andrew Freedman</h5>
       <h5>David Gurule</h5>
-      <h5>Ej Soumahoro</h5>
+      <h5>Elhadj Soumahoro</h5>
       <h5>Lance Simmons</h5>
       </div>
       </div>
-      {/* <div>
-      <img src='https://i.imgur.com/xL9R8iT.png'/>
-      </div> */}
+
     </footer>
   )
 }
