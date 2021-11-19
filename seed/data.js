@@ -35,14 +35,21 @@ const insertData = async () => {
   })
   await user4.save()
 
+  const user5 = new User({
+    username: 'leroy',
+    email: 'leroy@mail.com',
+    password_digest: await bcrypt.hash('jenkins', 11)
+  })
+  await user5.save()
+
   const products = [
     {
-      name: "TETON Sports Sierra 16 12 Person Family Canvas Tent - Khaki Tan/ Brown",
-      imgURL: "https://i.imgur.com/lXXtaSc.jpg",
-      description: "TETON Sports Sierra 16 12 Person Family Canvas Tent - The Sierra 16 Canvas Tent is a beautiful bell tent with all the great features you’d expect from a canvas tent; stability, breathability, and water-resistance. The coolest feature is the zip-away floor that transforms your tent into a canopy for outdoor events such as festivals, weddings, and group campouts. It’s an easy single person set up.",
-      type: "tents",
-      price: 629.99,
-      featured: true
+      "name": "TETON Sports Sierra 16 12 Person Family Canvas Tent - Khaki Tan/ Brown",
+      "imgURL": "https://i.imgur.com/lXXtaSc.jpg",
+      "description": "TETON Sports Sierra 16 12 Person Family Canvas Tent - The Sierra 16 Canvas Tent is a beautiful bell tent with all the great features you’d expect from a canvas tent; stability, breathability, and water-resistance. The coolest feature is the zip-away floor that transforms your tent into a canopy for outdoor events such as festivals, weddings, and group campouts. It’s an easy single person set up.",
+      "type": "tents",
+      "price": 629.99,
+      "featured": true
     },
   {
     "name": "Big Agnes Tiger Wall UL1 Solution Dye - 1 Person Tent",
