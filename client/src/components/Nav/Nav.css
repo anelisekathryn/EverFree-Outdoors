@@ -97,15 +97,6 @@ nav {
   background-color: none;
 }
 
-@media (min-width: 870px) {
-  .mobile-nav {
-    display: none;
-  }
-
-  .nav-home .mobile-nav{
-    display:  none;
-  }
-}
 
 .bm-burger-button {
   position: fixed;
@@ -116,7 +107,7 @@ nav {
 }
 
 .bm-burger-bars {
-  background: white;
+  background: #F4A261;
 }
 
 .bm-cross-button {
@@ -151,6 +142,16 @@ nav {
   color: white
 }
 
+@media (min-width: 870px) {
+  .mobile-nav {
+    display: none;
+  }
+
+  .nav-home .mobile-nav{
+    display:  none;
+  }
+}
+
 @media (max-width: 870px) {
   .nav .links {
     display: none;
@@ -180,8 +181,6 @@ nav {
     padding-top: 10px;
     padding-left: 10px
   }
-
-  
 }
 
 

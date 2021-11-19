@@ -55,22 +55,19 @@ const Nav = ({ user }) => {
     <div>
     <nav
       className={location.pathname === '/' ? 'nav-home' : 'nav'}>
-      
-        
         <NavLink
           className='logo'
           to='/'>
           <img src={location.pathname === '/' ? "https://i.imgur.com/sUDM2sy.png" : "https://i.imgur.com/iIWZzLV.png"} />
         </NavLink>
-        
+        {/*------Regular Menu Contents-----------*/}
         <div className='links'>
           {alwaysOptions}
           {user ? authenticatedOptions : unauthenticatedOptions}
           {user && <div className="link-welcome">Welcome, {user.username}</div>}
           </div>
-
       </nav>
-      
+      {/*------Burger Menu Contents-----------*/}
       <nav className='mobile-nav'>
         <Menu right className='mobile-nav'>
           <div className='links'>
