@@ -92,9 +92,9 @@ const Products = (props) => {
           return (
             <Product
               _id={product._id}
-              // name={product.name}
-              imgURL={product.imgURL}
-              // price={product.price}
+               name={product.name}
+               imgURL={product.imgURL}
+               price={product.price}
               // key={index}
             />
           );
