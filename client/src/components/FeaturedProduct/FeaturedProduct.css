@@ -21,7 +21,6 @@
     flex-wrap: no-wrap;
     padding-bottom: 80px;
     justify-content: space-between;
-    background-color: yellowgreen;
   }
   .featured-products img {
     border: 1px solid black;
@@ -35,12 +34,16 @@
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
+    gap: 20px;
     padding-bottom: 80px;
-    justify-content: space-between;
-    background-color: violet;
+    justify-content: space-evenly;
   }
   .featured-products img {
     border: 1px solid black;
-    width: 60%;
+    width: 100%;
+  }
+
+  .featured-products a.product {
+    width: 100px;
   }
 }
