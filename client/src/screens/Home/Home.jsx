@@ -36,7 +36,7 @@ const Home = (props) => {
 
       <div className='quote-block'>
         <h2>Not all who <span className="color-wander">wander</span> are lost.</h2>
-        <p>If it wasn’t for hiking, I would not have discovered the trails, soaring trees, chirping birds <br /> and rolling dunes in multiple parts of the world.  Pashmina, 2021</p>
+        <p>If it wasn’t for hiking, I would not have discovered the trails, soaring trees, chirping birds and rolling dunes in multiple parts of the world.  Pashmina, 2021</p>
       </div>
       <div className='action-block'>
         <div className="shop-now">

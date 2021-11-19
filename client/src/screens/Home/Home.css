@@ -64,6 +64,7 @@
 
 .join-block {
   margin: auto;
+  margin-top: 14px;
   width: 100%;
   background-color: #f4a261;
 }
@@ -86,7 +87,7 @@
   .join-text-block a {
     position: absolute;
     text-decoration: none;
-    color: black;
+    color: #264653;
     background-color: rgba(255, 255, 255, 0.75);
     padding: 10px 16px 10px 16px;
     margin-top: 100px;
@@ -139,7 +140,7 @@
 
   .join-text-block a {
     text-decoration: none;
-    color: black;
+    color: #264653;
     background-color: #efd595;
     padding: 10px 16px 10px 16px;
     margin-bottom: 30px;
@@ -157,7 +158,8 @@
   text-align: center;
   margin: auto;
   width: 88%;
-  margin-bottom: 110px;
+  margin-top: 100px;
+  margin-bottom: 50px;
 }
 
 .quote-block h2 {
@@ -179,23 +181,48 @@
   margin-top: 10px;
 }
 
+@media (max-width: 889px) {
+  .quote-block p {
+    font-size: 18px;
+  }
+  .quote-block {
+    margin-top: 60px;
+    margin-bottom: 20px;
+  }
+}
+
 /* ACTION BLOCK ====================================== */
 
 .action-block {
   width: 88%;
   margin: auto;
-  display: flex;
-  column-gap: 60px;
-  margin-bottom: 90px;
+  margin-bottom: 110px;
+}
+
+.action-block img {
+  margin-top: 50px;
 }
 
 .action-block h4 {
   font-family: "Playfair Display", sans-serif;
   font-weight: 700;
-  font-size: 3vw;
+  font-size: 30px;
   color: #264653;
   margin-top: 8px;
   margin-bottom: 16px;
+}
+
+@media (min-width: 715px) {
+  .action-block {
+    width: 88%;
+    margin: auto;
+    display: flex;
+    column-gap: 60px;
+    margin-bottom: 130px;
+  }
+  .action-block h4 {
+    font-size: 3vw;
+  }
 }
 
 .action-block p {
