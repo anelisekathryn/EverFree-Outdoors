@@ -90,7 +90,7 @@ const AboutUs = (props) => {
                 <img src="https://i.imgur.com/hoPFt6I.jpg" alt ="ej headshot"></img>
               </div>
               <div className="profile-text">
-                <h4>EJ Souhmahoro</h4>
+                <h4>Elhadj Souhmahoro</h4>
                 <p>A born and raised New Yorker with passion for problem solving. EJ translates his strong values in dedication, adaptability and resilience to his software engineer/developer role, making him uniquely stand out from other developers.</p>
                 <div className="daale-links">
                   <a href="https://www.linkedin.com/in/elhadj-soumahoro-0b1aa3198/" target="_blank" rel="noreferrer" ><img src="https://i.imgur.com/GLGB8SJ.png" alt="linkedin icon"></img></a>

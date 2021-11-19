@@ -4,7 +4,7 @@
 
 **Heroku:** https://everfree-outdoors.herokuapp.com/api/products
 
-**Netlify:** https://61955114aaac4e5be0c9813b--everfree-outdoors.netlify.app/
+**Netlify:** https://everfree-outdoors.netlify.app/
 
 ## Overview
 
@@ -129,6 +129,6 @@ https://www.figma.com/file/cMLvn51ilzBYvskQ4NLJSR/EverFree-Outdoors?node-id=0%3A
 | Nov 16    | Create React App + Test Components to Render / Assign Individual Tasks in Front-End |  Complete  |
 | Nov 17    | Continue Working on React Front-End                                                 |  Complete  |
 | Nov 18    | Working Prototype + Start CSS Styling                                               |  Complete  |
-| Nov 19    | CSS Styling                                                                         | Incomplete |
+| Nov 19    | CSS Styling                                                                         |  Complete  |
 | Nov 20–21 | Final styling + Code Review                                                         | Incomplete |
 | Nov 22    | Project presentation                                                                | Incomplete |
