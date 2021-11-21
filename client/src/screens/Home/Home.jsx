@@ -6,7 +6,8 @@ import { Layout, FeaturedProduct } from "../../components";
 const Home = (props) => {
   return (
     <Layout user={props.user}>
-      <div className='header'>
+
+      {/* <div className='header'>
         <img src="https://i.imgur.com/kWRULl8.jpg" alt="machu picchu"></img>
         <div className="header-text">
           <h1>get unplugged, get outside, get free</h1>
@@ -14,7 +15,17 @@ const Home = (props) => {
               find gear to do it with
           </Link>
         </div>
+      </div> */}
+
+      <div className='hero-image'>
+        <div className="hero-text">
+          <h1>get unplugged, get outside, get free</h1>
+          <Link className="header-button" to="/products">
+              find gear
+          </Link>
+        </div>
       </div>
+
       <div className='featured-block'>
         <FeaturedProduct />
       </div>

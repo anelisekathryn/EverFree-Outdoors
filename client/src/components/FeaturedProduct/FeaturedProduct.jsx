@@ -17,17 +17,6 @@ const FeaturedProduct = () => {
     fetchProducts()
   }, [])
 
-  
-  // const FEATURED = products.slice(0,4).map((product, index) =>
-  //   product.featured ? (
-  //     <Product
-  //     _id={product._id}
-  //     imgURL={product.imgURL}
-  //     key={index}
-  //     />
-  //   ) : null
-  // )
-
   return (
     <div className="featured">
       <div className="featured-title">
