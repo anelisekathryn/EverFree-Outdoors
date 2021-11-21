@@ -1,25 +1,21 @@
 import "./Home.css";
-
 import { Link } from 'react-router-dom'
 import { Layout, FeaturedProduct } from "../../components";
 
 const Home = (props) => {
   return (
     <Layout user={props.user}>
-      <div className='header'>
-        <img src="https://i.imgur.com/kWRULl8.jpg" alt="machu picchu"></img>
-        <div className="header-text">
-          <h1>get unplugged, get outside, get free</h1>
-          <Link className="header-button" to="/products">
-              find gear to do it with
-          </Link>
+      <Link to ="/products">
+        <div className='hero-image'>
+          <div className="hero-text">
+            <h1>get unplugged, get outside, get free</h1>
+            <Link to="/products">find gear</Link>
+          </div>
         </div>
-      </div>
+      </Link>
       <div className='featured-block'>
         <FeaturedProduct />
       </div>
-
-
       <div className='join-block'>
         <div className='join-text-block'>
           <h4>Join Us <span className="color-outdoors">Outdoors</span></h4>
@@ -32,8 +28,6 @@ const Home = (props) => {
           <img src="https://i.imgur.com/zppPCEE.jpg" alt="hikers"></img>
         </div>
       </div>
-
-
       <div className='quote-block'>
         <h2>Not all who <span className="color-wander">wander</span> are lost.</h2>
         <p>If it wasn’t for hiking, I would not have discovered the trails, soaring trees, chirping birds and rolling dunes in multiple parts of the world.  Pashmina, 2021</p>

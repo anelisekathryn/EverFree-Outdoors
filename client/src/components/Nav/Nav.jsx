@@ -27,21 +27,21 @@ const alwaysOptions = (
 /*-------Menu Options------*/
 const authenticatedOptionsMenu = (
   <>
-      <Link className="link" to="/sign-out">SIGN OUT</Link>
+      <Link className="burger-item" className="link" to="/sign-out">SIGN OUT</Link>
   </>
 )
 
 const unauthenticatedOptionsMenu = (
   <>
-      <Link className="link" to="/sign-up">SIGN UP</Link>
+      <Link className="burger-item" className="link" to="/sign-up">SIGN UP</Link>
       <Link className="link" to="/sign-in">SIGN IN</Link>
   </>
 )
 const alwaysOptionsMenu = (
   <>
-    <Link className="link" to="/about">ABOUT</Link>
-    <Link className="link" to="/products">PRODUCTS</Link>
-    <HashLink className="link" to="/about#meet-the-team">MEET THE TEAM</HashLink>
+    <Link className="burger-item" className="link" to="/about">ABOUT</Link>
+    <Link className="burger-item" className="link" to="/products">PRODUCTS</Link>
+    <HashLink className="burger-item"className="link" to="/about#meet-the-team">MEET THE TEAM</HashLink>
   </>
 )
 
