@@ -53,46 +53,6 @@
   font-size: 18px;
 }
 
-/* HEADER IMAGE + TEXT ==================================== */
-/* .header {
-  display: block;
-}
-
-.header img {
-  margin: auto;
-  height: auto;
-  width: 100%;
-}
-
-.header-text {
-  position: absolute;
-  top: 40%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  margin: auto;
-  height: auto;
-  width: 100%;
-}
-
-.header-text h1 {
-  width: 100%;
-  font-family: "Playfair Display", sans-serif;
-  font-weight: 700;
-  font-size: 4.2vw;
-  color: #ffffff;
-}
-
-.header-text a {
-  text-decoration: none;
-  color: black;
-  background-color: #efd595;
-  padding: 12px;
-  border-radius: 5px;
-  font-family: "Playfair Display", sans-serif;
-  font-weight: 700;
-  font-size: 18px;
-} */
-
 /* JOIN US ==================================== */
 
 .join-text-block h4 {

@@ -1,9 +1,7 @@
 import "./FeaturedProduct.css"
-
 import { useState, useEffect } from 'react'
 import { getProducts } from '../../services/products'
 import Product from '../Product/Product'
-
 
 const FeaturedProduct = () => {
 
@@ -22,7 +20,6 @@ const FeaturedProduct = () => {
       <div className="featured-title">
         <h3>Featured Products</h3>
       </div>
-
       <div className="featured-products">
         {products.slice(0,4).map((product, index) =>
           product.featured ? (
@@ -34,7 +31,6 @@ const FeaturedProduct = () => {
             ) : null
         )}
       </div>
-      
     </div>
   )
 }
