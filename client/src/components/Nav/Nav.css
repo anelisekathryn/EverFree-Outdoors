@@ -34,10 +34,12 @@ nav {
   position: absolute;
   display: flex;
   flex-direction: row;
-  width: 97%;
+  width: 98%;
   height: 50px;
   padding-left: 20px;
   padding-top: 20px;
+  background-color:rgba(255,255,255,0.4)
+
 }
 
 .nav-home .logo {
@@ -51,10 +53,6 @@ nav {
 .nav-home a {
   text-decoration: none;
   color: #264653;
-}
-
-.nav-home:hover {
-  background-color:rgba(255,255,255,0.4)
 }
 
 .links {
