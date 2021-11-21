@@ -34,7 +34,7 @@ nav {
   position: absolute;
   display: flex;
   flex-direction: row;
-  width: 99%;
+  width: 97%;
   height: 50px;
   padding-left: 20px;
   padding-top: 20px;
@@ -97,7 +97,6 @@ nav {
   background-color: none;
 }
 
-
 .bm-burger-button {
   position: fixed;
   width: 22px;
@@ -123,6 +122,12 @@ nav {
 .bm-menu-wrap {
   position: fixed;
   height: 100%;
+  right: -100px;
+}
+
+
+.mobile-nav {
+  right: -100px;
 }
 
 .bm-menu {
