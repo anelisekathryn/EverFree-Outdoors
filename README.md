@@ -120,15 +120,15 @@ https://www.figma.com/file/cMLvn51ilzBYvskQ4NLJSR/EverFree-Outdoors?node-id=0%3A
 
 ## Project Schedule
 
-| Date      | Deliverable                                                                         |   Status   |
-| :-------- | :---------------------------------------------------------------------------------- | :--------: |
-| Nov 10    | Project Team Building                                                               |  Complete  |
-| Nov 12    | Wireframes + Final Project Approval                                                 |  Complete  |
-| Nov 13–14 | Create Back-End (group code)                                                        |  Complete  |
-| Nov 15    | Continue Back-End (group code) + Testing + Deploy Back-End                          |  Complete  |
-| Nov 16    | Create React App + Test Components to Render / Assign Individual Tasks in Front-End |  Complete  |
-| Nov 17    | Continue Working on React Front-End                                                 |  Complete  |
-| Nov 18    | Working Prototype + Start CSS Styling                                               |  Complete  |
-| Nov 19    | CSS Styling                                                                         |  Complete  |
-| Nov 20–21 | Final styling + Code Review                                                         | Incomplete |
-| Nov 22    | Project presentation                                                                | Incomplete |
+| Date      | Deliverable                                                                         |  Status  |
+| :-------- | :---------------------------------------------------------------------------------- | :------: |
+| Nov 10    | Project Team Building                                                               | Complete |
+| Nov 12    | Wireframes + Final Project Approval                                                 | Complete |
+| Nov 13–14 | Create Back-End (group code)                                                        | Complete |
+| Nov 15    | Continue Back-End (group code) + Testing + Deploy Back-End                          | Complete |
+| Nov 16    | Create React App + Test Components to Render / Assign Individual Tasks in Front-End | Complete |
+| Nov 17    | Continue Working on React Front-End                                                 | Complete |
+| Nov 18    | Working Prototype + Start CSS Styling                                               | Complete |
+| Nov 19    | CSS Styling                                                                         | Complete |
+| Nov 20–21 | Final styling + Code Review                                                         | Complete |
+| Nov 22    | Project presentation                                                                | Complete |
