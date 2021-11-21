@@ -135,7 +135,12 @@ nav {
 
 .bm-menu a {
   text-decoration: none;
-  color: white
+  color: white;
+  padding: 10px
+}
+
+.burger-item {
+  margin: 10px 0px 10px 0px;
 }
 
 .bm-menu .link-welcome {
@@ -182,5 +187,4 @@ nav {
     padding-left: 10px
   }
 }
-
 
