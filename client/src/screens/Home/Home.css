@@ -120,7 +120,7 @@
     display: flex;
     justify-content: space-between;
     column-gap: 100px;
-    height: 500px;
+    height: 650px;
   }
 
   .join-text-block {
@@ -132,7 +132,7 @@
     flex: 1;
   }
   .join-image-block img {
-    height: 500px;
+    height: 650px;
     border-left: 12px solid #efd595;
     margin-bottom: -3px;
   }
