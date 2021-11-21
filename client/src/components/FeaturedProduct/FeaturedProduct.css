@@ -11,6 +11,17 @@
   padding-bottom: 0px;
 }
 
+@media (max-width: 375px) {
+  .featured-title h3 {
+    font-size: 7vw;
+    color: #e76f51;
+    text-align: center;
+    padding-left: 0%;
+    padding-top: 20px;
+    padding-bottom: 0px;
+  }
+}
+
 /* PRODUCTS ============================ */
 
 @media (min-width: 601px) {
@@ -19,7 +30,7 @@
     margin: 0 auto;
     display: flex;
     flex-wrap: no-wrap;
-    padding-bottom: 80px;
+    padding-bottom: 60px;
     justify-content: space-between;
   }
   .featured-products img {
@@ -35,7 +46,7 @@
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
-    padding-bottom: 80px;
+    padding-bottom: 30px;
     justify-content: space-evenly;
   }
   .featured-products img {

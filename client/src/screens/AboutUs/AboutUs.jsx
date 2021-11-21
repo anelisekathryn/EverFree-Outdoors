@@ -1,5 +1,4 @@
 import "./AboutUs.css";
-
 import { Layout } from "../../components";
 import { Link } from 'react-router-dom'
 
@@ -15,15 +14,11 @@ const AboutUs = (props) => {
           </Link>
         </div>
         <div className="meet" id="meet-the-team">
-
           <div className="meet-title">
             <h2>MEET THE TEAM</h2>
           </div>
-
           <div className="orange-bar"></div>
-
           <div className="profiles">
-
             <div className="david">
               <div className="letter-image-block">
                 <h1>D</h1>
@@ -38,7 +33,6 @@ const AboutUs = (props) => {
                 </div>
               </div>  
             </div>
-
             <div className="anelise">
               <div className="letter-image-block">
                 <h1>A</h1>
@@ -53,7 +47,6 @@ const AboutUs = (props) => {
               </div>
               </div>
             </div>
-
             <div className="andrew">
               <div className="letter-image-block">
                 <h1>A</h1>
@@ -68,7 +61,6 @@ const AboutUs = (props) => {
               </div>
               </div>
             </div>
-
             <div className="lance">
               <div className="letter-image-block">
                 <h1>L</h1>
@@ -83,7 +75,6 @@ const AboutUs = (props) => {
               </div>
               </div>
             </div>
-
             <div className="ej">
               <div className="letter-image-block">
                 <h1>E</h1>
@@ -98,9 +89,7 @@ const AboutUs = (props) => {
               </div>
               </div>
             </div>
-            
           </div>
-
         </div>
       </div>
     </Layout>    
