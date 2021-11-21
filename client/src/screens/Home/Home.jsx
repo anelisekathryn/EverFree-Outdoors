@@ -5,14 +5,14 @@ import { Layout, FeaturedProduct } from "../../components";
 const Home = (props) => {
   return (
     <Layout user={props.user}>
-      <div className='hero-image'>
-        <div className="hero-text">
-          <h1>get unplugged, get outside, get free</h1>
-          <Link className="header-button" to="/products">
-              find gear
-          </Link>
+      <Link to ="/products">
+        <div className='hero-image'>
+          <div className="hero-text">
+            <h1>get unplugged, get outside, get free</h1>
+            <Link to="/products">find gear</Link>
+          </div>
         </div>
-      </div>
+      </Link>
       <div className='featured-block'>
         <FeaturedProduct />
       </div>
