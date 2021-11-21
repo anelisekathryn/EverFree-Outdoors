@@ -22,9 +22,12 @@ const ProductDetail = (props) => {
   }, [id]);
 
   let navigate = useNavigate()
-    
+ 
+  
   return (
     <Layout user={props.user}>
+      
+      
       <div>
         <div className="wrapper">
           <img className="url" src={product.imgURL} />
@@ -44,6 +47,10 @@ const ProductDetail = (props) => {
           </div>
         </div>
       </div>
+      
+      
+     
+     {props.user ? 
       <div className="button-container">
         <button className="save-button" id='edit-delete'>
           <Link className="edit-button" to={`/products/${product._id}/edit`}>
@@ -61,6 +68,11 @@ const ProductDetail = (props) => {
           delete
         </button>
       </div>
+      : 
+      null
+}
+    
+    
     </Layout>
   );
 };
