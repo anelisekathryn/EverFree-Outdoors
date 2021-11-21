@@ -50,7 +50,7 @@ const Products = (props) => {
 
       <Link className="addProduct" to="/add-product">
         {" "}
-        Add Product
+        add product
       </Link>
     </Layout>
   );
