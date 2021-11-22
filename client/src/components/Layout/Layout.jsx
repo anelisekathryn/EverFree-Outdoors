@@ -1,15 +1,16 @@
-import './Layout.css'
-import Nav from '../Nav/Nav'
-import Footer from '../Footer/Footer'
+import "./Layout.css";
+import Nav from "../Nav/Nav";
+import Footer from "../Footer/Footer";
 
 const Layout = (props) => (
-    <div className='layout'>
-        <Nav user={props.user} />
-        <div className="layout-children">
-            {props.children}
-        </div>
-    <Footer user={props.user}/>
-    </div>
-)
+  <div className="layout">
+    <Nav user={props.user} />
 
-export default Layout
+    <div class="content">
+      <div className="layout-children">{props.children}</div>
+    </div>
+    <Footer user={props.user} />
+  </div>
+);
+
+export default Layout;

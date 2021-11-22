@@ -1,11 +1,12 @@
 footer {
   background-color: #264653;
   color: white;
-  background-image: url('https://i.imgur.com/xL9R8iT.png');
+  background-image: url("https://i.imgur.com/xL9R8iT.png");
   background-size: 75% 75%;
   background-repeat: no-repeat;
   background-position: bottom;
   font-family: "Cabin", sans-serif;
+  height: 161px;
 }
 
 .footer-margin {
@@ -50,6 +51,6 @@ footer {
 
 @media (max-width: 500px) {
   footer {
-    background-size: 70% 
+    background-size: 70%;
   }
 }
