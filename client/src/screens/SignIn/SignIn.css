@@ -1,12 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Cabin&family=Playfair+Display:wght@700&family=Space+Grotesk:wght@500&family=Titillium+Web:wght@700&family=Varela+Round&display=swap");
 
 #signin-h2 {
-
-  font-family: 'Playfair Display', serif;
-  color: #EFD595;
-
+  font-family: "Playfair Display", serif;
+  color: #efd595;
 }
-.signin-h3 {
+#signin-h3 {
   color: #ffffff;
 }
 .here-link {
@@ -33,8 +31,7 @@
   margin-top: 10vh;
 }
 .signin-input {
-
-  font-family: 'Cabin', sans-serif;
+  font-family: "Cabin", sans-serif;
 
   width: 25vw;
   height: 4vh;
@@ -50,9 +47,8 @@
   height: 5vh;
   width: 15vw;
 
-  font-family: 'Playfair Display', serif;
-  margin-bottom: 4vh; 
-
+  font-family: "Playfair Display", serif;
+  margin-bottom: 4vh;
 }
 .signin-home-button {
   background-color: #ffffff50;
@@ -61,10 +57,10 @@
   height: 5vh;
   border-radius: 10px;
 
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   margin-top: 4vh;
   margin-bottom: 4vh;
-} 
+}
 
 @media only screen and (max-width: 600px) {
   .sign-in-button {
@@ -82,5 +78,3 @@
     width: 70%;
   }
 }
-
-
